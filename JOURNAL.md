@@ -26,8 +26,8 @@ After that, I started working on the schematic of my pcb! So far, I followed ras
 Screenshots:\
  \
  <img src="assets/12-05-26_01.png" alt="first picture" width="400"/>\
- _basic rp2350b design_
+ _basic rp2350b design_\
 <img src="assets/12-05-26_02.png" alt="second picture" width="400"/>\
- _multiple sheets for different parts of the design_
+ _multiple sheets for different parts of the design_\
 \
  **Total time spent: 5 hours**
