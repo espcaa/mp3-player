@@ -47,10 +47,12 @@ I then designed a basic schematic & footprint since it doesn't seem to be very p
 <img src="assets/14-05-26_01.png" alt="third picture" width="400"/>
 <img src="assets/14-05-26_02.png" alt="fourth picture" width="400"/>
 \
- _schematic & footprint for the bluetooth module_
+ _schematic & footprint for the bluetooth module_\
+\
 \
 I finished the day by wiring that new module :p\
 \
 <img src="assets/14-05-26_03.png" alt="fifth picture" width="400"/>
+\
 \
 **Total time spent: 4 hours**
