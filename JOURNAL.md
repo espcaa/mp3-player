@@ -35,3 +35,22 @@ Screenshots:\
 \
 \
  **Total time spent: 5 hours**
+
+## 14th May 2026
+
+I forgot to journal yesterday's progress so this is going to be for yesterday too...\
+After diving deeper in bluetooth audio, I realized that going with a nrf was maybe not that good of an idea as it only supports LE Audio. I then did some research and found the FSC-BT1114QI that support both classic bluetooth audio & LE Audio! That means I can make my player future proof & still work with most things!.\
+The only problem is price, 10$ :(\
+\
+I then designed a basic schematic & footprint since it doesn't seem to be very popular, and added it to my design!\
+\
+<img src="assets/14-05-26_01.png" alt="third picture" width="400"/>
+<img src="assets/14-05-26_02.png" alt="fourth picture" width="400"/>
+\
+ _schematic & footprint for the bluetooth module_
+\
+I finished the day by wiring that new module :p\
+\
+<img src="assets/14-05-26_03.png" alt="fifth picture" width="400"/>
+\
+**Total time spent: 4 hours**
