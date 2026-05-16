@@ -25,11 +25,11 @@ After that, I started working on the schematic of my pcb! So far, I followed ras
 \
 Screenshots:\
 \
- <img src="assets/12-05-26_01.png" alt="first picture" width="400"/>
+ <img src="assets/12-05-26_01.png" alt="" width="400"/>
 \
  _basic rp2350b design_
 \
-<img src="assets/12-05-26_02.png" alt="second picture" width="400"/>
+<img src="assets/12-05-26_02.png" alt="" width="400"/>
 \
  _multiple sheets for different parts of the design_
 \
@@ -38,20 +38,20 @@ Screenshots:\
 
 ## 14th May 2026
 
-I forgot to journal yesterday's progress so this is going to be for yesterday too...\
+I forgot to journal yesterday's progress so this is going to cover that as well.
 After diving deeper in bluetooth audio, I realized that going with a nrf was maybe not that good of an idea as it only supports LE Audio. I then did some research and found the FSC-BT1114QI that support both classic bluetooth audio & LE Audio! That means I can make my player future proof & still work with most things!.\
 The only problem is price, 10$ :(\
 \
 I then designed a basic schematic & footprint since it doesn't seem to be very popular, and added it to my design!\
 \
-<img src="assets/14-05-26_01.png" alt="third picture" width="400"/>
-<img src="assets/14-05-26_02.png" alt="fourth picture" width="400"/>
+<img src="assets/14-05-26_01.png" alt="" width="400"/>
+<img src="assets/14-05-26_02.png" alt="" width="400"/>
 \
  _schematic & footprint for the bluetooth module_\
 \
 I finished the day by wiring that new module :p\
 \
-<img src="assets/14-05-26_03.png" alt="fifth picture" width="400"/>
+<img src="assets/14-05-26_03.png" alt="" width="400"/>
 \
 \
 **Total time spent: 4 hours**
@@ -83,7 +83,27 @@ _hopefully it works :-:_\
 \
 wip schematic:\
 \
-<img src="assets/15-05-26_01.png" alt="sixth picture" width="400"/>
+<img src="assets/15-05-26_01.png" alt="" width="400"/>
 \
 \
 **Total time spent: 2 hours**
+
+## 16th May 2026
+
+Today's mission was to wire the 3.5mm jack part of the audio setup! (dac :fear:)\
+I think I somehow made it and it should work? hopefully?\
+\
+<img src="assets/16-05-26_01.png" alt="" width="400"/>
+\
+_schematic for the audio output (used kicad buses for the first time \o/)_\
+\
+I also added a power button to power on/off the device with a long/short press!
+\
+<img src="assets/16-05-26_02.png" alt="" width="400"/>
+\
+_schematic for the power button_\
+\
+& random fixes here and there\
+i need to sleep noww\
+\
+**Total time spent: 4 hours**

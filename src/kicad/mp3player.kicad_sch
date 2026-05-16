@@ -5,29 +5,19 @@
 	(uuid "730d0887-0a09-4397-bcb4-2959d410b5ba")
 	(paper "A5")
 	(lib_symbols)
-	(wire
+	(bus
 		(pts
-			(xy 50.165 52.705) (xy 50.165 47.625)
+			(xy 60.96 34.29) (xy 79.375 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "249e15de-d15f-482b-9f23-d21756d6f393")
+		(uuid "21f278f0-a2e1-468f-bcb7-22d2477d9c0b")
 	)
 	(wire
 		(pts
-			(xy 52.705 53.34) (xy 52.705 47.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01a1c38-1925-4196-a4d7-b31df4b2e0e1")
-	)
-	(wire
-		(pts
-			(xy 52.07 53.34) (xy 52.07 59.055)
+			(xy 52.705 47.625) (xy 52.705 59.055)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.055) (xy 49.53 52.705)
+			(xy 50.165 47.625) (xy 50.165 59.055)
 		)
 		(stroke
 			(width 0)
@@ -45,29 +35,9 @@
 		)
 		(uuid "d3fddef4-7824-488f-b0e9-a845d5c6e83c")
 	)
-	(wire
-		(pts
-			(xy 49.53 52.705) (xy 50.165 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e73dd3-e9ba-4857-a3eb-fc6d1f2a77e5")
-	)
-	(wire
-		(pts
-			(xy 52.705 53.34) (xy 52.07 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "effef851-b581-4ff8-967a-a4c6d25b1315")
-	)
 	(sheet
-		(at 100.33 31.115)
-		(size 68.58 25.4)
+		(at 80.01 57.785)
+		(size 38.1 24.765)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -82,7 +52,7 @@
 		)
 		(uuid "0e33fdc2-677c-4285-9089-c56674bb07ef")
 		(property "Sheetname" "ui"
-			(at 100.33 30.4034 0)
+			(at 80.01 57.0734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93,7 +63,7 @@
 			)
 		)
 		(property "Sheetfile" "ui.kicad_sch"
-			(at 100.33 57.0996 0)
+			(at 80.01 83.1346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -150,7 +120,7 @@
 			)
 		)
 		(pin "USB_D+" input
-			(at 52.07 59.055 90)
+			(at 52.705 59.055 90)
 			(uuid "53c141e4-44ac-4453-a8d9-b4062460defb")
 			(effects
 				(font
@@ -160,8 +130,28 @@
 			)
 		)
 		(pin "USB_D-" input
-			(at 49.53 59.055 90)
+			(at 50.165 59.055 90)
 			(uuid "9b85289e-75e0-454e-b6d2-41e4cd9bd437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SOC_SCL" input
+			(at 33.02 59.055 90)
+			(uuid "10fcd128-e725-4d35-908b-b9d25b2275c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SOC_SDA" input
+			(at 35.56 59.055 90)
+			(uuid "7697d63c-3535-4310-be8f-3f2660a2003b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,8 +168,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 71.12)
-		(size 57.785 26.67)
+		(at 79.375 22.86)
+		(size 38.1 24.765)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -194,7 +184,7 @@
 		)
 		(uuid "7461f53d-9338-474f-a5a3-a4bfcebcdcf6")
 		(property "Sheetname" "audio"
-			(at 119.38 70.4084 0)
+			(at 79.375 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -205,7 +195,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 119.38 98.3746 0)
+			(at 79.375 48.2096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -213,6 +203,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ANALOG_LDO_EN" input
+			(at 79.375 30.48 180)
+			(uuid "ab290924-2753-4e8d-b6fd-2e97d3866b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2S{LRCK DIN BCK SCK}" input
+			(at 79.375 34.29 180)
+			(uuid "a0e45dac-7b0f-43d9-9e7a-fc731524b090")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JACK_DETECTION" input
+			(at 79.375 40.64 180)
+			(uuid "785162ec-5d23-4cbf-ba81-f839402340c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -230,7 +250,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -251,7 +270,7 @@
 			)
 		)
 		(property "Sheetfile" "processing.kicad_sch"
-			(at 61.5446 47.625 90)
+			(at 24.13 19.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -279,6 +298,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2S{LRCK DIN BCK SCK}" input
+			(at 60.96 34.29 0)
+			(uuid "a124b8a0-03e6-4c3b-bcc8-8a79c8d7d373")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
