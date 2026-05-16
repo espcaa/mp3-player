@@ -58,10 +58,9 @@ I finished the day by wiring that new module :p\
 
 ## 15th May 2026
 
-Today is power management day :pensive: \
+Today is power management day ::: \
 I first started by trying to add a DW01A to my pcb to protect the battery, but after doing some research I found out that it's not really necessary since most batteries already come with a protection circuit.\
 This is what I ended up with:\
-\
 
 ```mermaid
 graph LR
@@ -80,7 +79,7 @@ graph LR
     Regulator -->|3V3| SYS
 ```
 
-_hopefully it works :crossed_fingers:_\
+_hopefully it works :-:_\
 \
 wip schematic:\
 \
