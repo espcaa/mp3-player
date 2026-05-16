@@ -29,6 +29,7 @@ Screenshots:\
 \
  _basic rp2350b design_
 \
+\
 <img src="assets/12-05-26_02.png" alt="" width="400"/>
 \
  _multiple sheets for different parts of the design_
@@ -97,7 +98,7 @@ I think I somehow made it and it should work? hopefully?\
 \
 _schematic for the audio output (used kicad buses for the first time \o/)_\
 \
-I also added a power button to power on/off the device with a long/short press!
+I also added a power button to power on/off the device with a long/short press!\
 \
 <img src="assets/16-05-26_02.png" alt="" width="400"/>
 \
