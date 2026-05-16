@@ -3,8 +3,68 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "730d0887-0a09-4397-bcb4-2959d410b5ba")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 50.165 52.705) (xy 50.165 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249e15de-d15f-482b-9f23-d21756d6f393")
+	)
+	(wire
+		(pts
+			(xy 52.705 53.34) (xy 52.705 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01a1c38-1925-4196-a4d7-b31df4b2e0e1")
+	)
+	(wire
+		(pts
+			(xy 52.07 53.34) (xy 52.07 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b429788b-bb2f-415f-957f-22d6e6f1cbf5")
+	)
+	(wire
+		(pts
+			(xy 49.53 59.055) (xy 49.53 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fddef4-7824-488f-b0e9-a845d5c6e83c")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.705) (xy 50.165 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e73dd3-e9ba-4857-a3eb-fc6d1f2a77e5")
+	)
+	(wire
+		(pts
+			(xy 52.705 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effef851-b581-4ff8-967a-a4c6d25b1315")
+	)
 	(sheet
 		(at 100.33 31.115)
 		(size 68.58 25.4)
@@ -52,8 +112,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 61.595)
-		(size 57.785 24.13)
+		(at 23.495 59.055)
+		(size 37.465 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +128,7 @@
 		)
 		(uuid "727f8b88-b598-49af-b523-8d5e77923d77")
 		(property "Sheetname" "power"
-			(at 30.48 60.8834 0)
+			(at 23.495 58.3434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +139,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 30.48 86.3096 0)
+			(at 23.495 83.7696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +147,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_D+" input
+			(at 52.07 59.055 90)
+			(uuid "53c141e4-44ac-4453-a8d9-b4062460defb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 49.53 59.055 90)
+			(uuid "9b85289e-75e0-454e-b6d2-41e4cd9bd437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -98,7 +178,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 92.71)
+		(at 119.38 71.12)
 		(size 57.785 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +194,7 @@
 		)
 		(uuid "7461f53d-9338-474f-a5a3-a4bfcebcdcf6")
 		(property "Sheetname" "audio"
-			(at 30.48 91.9984 0)
+			(at 119.38 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +205,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 30.48 119.9646 0)
+			(at 119.38 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,8 +224,8 @@
 		)
 	)
 	(sheet
-		(at 29.845 26.035)
-		(size 58.42 25.4)
+		(at 24.13 22.225)
+		(size 36.83 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +240,7 @@
 		)
 		(uuid "e503cbcc-34c8-46b6-97a8-cd1a740433c3")
 		(property "Sheetname" "processing"
-			(at 29.845 25.3234 0)
+			(at 23.4184 47.625 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +251,7 @@
 			)
 		)
 		(property "Sheetfile" "processing.kicad_sch"
-			(at 29.845 52.0196 0)
+			(at 61.5446 47.625 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -179,6 +259,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_D+" input
+			(at 52.705 47.625 270)
+			(uuid "51b963f0-f1a0-4976-9e16-e33ac6214e48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 50.165 47.625 270)
+			(uuid "05df608b-7f57-4a00-974a-70921cfbe70f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

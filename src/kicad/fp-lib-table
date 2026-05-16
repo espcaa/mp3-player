@@ -1,4 +1,6 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "feasycom") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/feasycom.pretty") (options "") (descr ""))
+	(lib (name "misc") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/misc.pretty") (options "") (descr ""))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/easyeda2kicad.pretty") (options "") (descr ""))
 )

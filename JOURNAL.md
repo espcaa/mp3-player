@@ -49,10 +49,42 @@ I then designed a basic schematic & footprint since it doesn't seem to be very p
 \
  _schematic & footprint for the bluetooth module_\
 \
-\
 I finished the day by wiring that new module :p\
 \
 <img src="assets/14-05-26_03.png" alt="fifth picture" width="400"/>
 \
 \
 **Total time spent: 4 hours**
+
+## 15th May 2026
+
+Today is power management day :pensive: \
+I first started by trying to add a DW01A to my pcb to protect the battery, but after doing some research I found out that it's not really necessary since most batteries already come with a protection circuit.\
+This is what I ended up with:\
+\
+
+```mermaid
+graph LR
+    USB[USB 5V]:::source
+    BATT[LiPo]:::source
+    FuelGauge[Battery SOC ic]:::ic
+    BQ["BQ24075 <br /> (charging and switching)"]:::ic
+    Regulator[Buck-Boost<br>Converter]:::converter
+    SYS[System Load]:::load
+
+    USB --> BQ
+    BATT --> FuelGauge
+    FuelGauge --> BQ
+
+    BQ -->|SYSTEM_POWER| Regulator
+    Regulator -->|3V3| SYS
+```
+
+_hopefully it works :crossed_fingers:_\
+\
+wip schematic:\
+\
+<img src="assets/15-05-26_01.png" alt="sixth picture" width="400"/>
+\
+\
+**Total time spent: 2 hours**
