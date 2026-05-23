@@ -1795,12 +1795,6 @@
 		(uuid "dbabdc31-2560-469f-8743-7233e8eb0d16")
 	)
 	(junction
-		(at 172.72 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e93653e-20cc-4a4c-8573-1612186ba1b9")
-	)
-	(junction
 		(at 73.66 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1849,6 +1843,12 @@
 		(uuid "6a7dd0a1-bea9-46c0-9290-9562c0b31185")
 	)
 	(junction
+		(at 175.26 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a36297f7-719d-48c5-b6e7-24a0958582af")
+	)
+	(junction
 		(at 58.42 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1859,6 +1859,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1d0ba69-e1cd-464e-bc9a-71203b13427e")
+	)
+	(junction
+		(at 172.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d135e9-0d8f-4c76-9983-0980bbead3b7")
+	)
+	(junction
+		(at 39.37 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bab345f5-0e0f-4991-b1c6-0f1f7b5c3c3c")
 	)
 	(junction
 		(at 86.36 77.47)
@@ -2072,6 +2084,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 125.73) (xy 39.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240961e4-aee7-4841-9180-635f928c9038")
+	)
+	(wire
+		(pts
 			(xy 55.88 85.09) (xy 55.88 97.79)
 		)
 		(stroke
@@ -2252,6 +2274,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 57.785) (xy 175.26 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592ae5aa-4f44-448a-8d18-3d086d7813be")
+	)
+	(wire
+		(pts
 			(xy 86.36 77.47) (xy 99.06 77.47)
 		)
 		(stroke
@@ -2362,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 62.23) (xy 175.26 52.07)
+			(xy 175.26 62.23) (xy 175.26 57.785)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 60.96) (xy 172.72 62.23)
+			(xy 172.72 60.96) (xy 172.72 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2592,6 +2624,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 123.19) (xy 39.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6afe44-f078-48c3-8d45-366f0470e512")
+	)
+	(wire
+		(pts
+			(xy 175.26 57.785) (xy 175.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf442bf-14da-478a-90f0-1abbe1eef409")
+	)
+	(wire
+		(pts
 			(xy 64.77 101.6) (xy 64.77 97.79)
 		)
 		(stroke
@@ -2639,6 +2691,16 @@
 			(type default)
 		)
 		(uuid "f87d533e-4bd7-4cd1-97fb-b579635aa49c")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 36.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0ab88d-6604-4764-ad1c-5a06dbe80477")
 	)
 	(wire
 		(pts
@@ -2804,7 +2866,7 @@
 	)
 	(hierarchical_label "JACK_DETECTION"
 		(shape input)
-		(at 36.83 123.19 0)
+		(at 43.18 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4559,6 +4621,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 57.785 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8cf64b-53f3-4566-93e8-fee54b0a6057")
+		(property "Reference" "#PWR0112"
+			(at 190.5 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 57.7849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efc5a479-ee68-4419-989c-1ae21c52e06e")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/7461f53d-9338-474f-a5a3-a4bfcebcdcf6"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 45.72 90)
 		(unit 1)
@@ -4639,6 +4780,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 180.34 57.785 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bada64c-2297-42b8-b86c-d0e40545203a")
+		(property "Reference" "R39"
+			(at 180.34 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 180.34 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 59.563 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c78e77d7-a1d9-4306-864f-4f0560588a86")
+		)
+		(pin "1"
+			(uuid "16bd9e6c-8847-4a16-8adf-340a4495d42e")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/7461f53d-9338-474f-a5a3-a4bfcebcdcf6"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 60.96 270)
 		(unit 1)
@@ -4713,6 +4934,84 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/7461f53d-9338-474f-a5a3-a4bfcebcdcf6"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90c84203-5762-4857-858e-83b6ba74f4a5")
+		(property "Reference" "#PWR0111"
+			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 39.37 137.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09a70d24-f1ab-43a0-bf50-ac45aa2e6269")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/7461f53d-9338-474f-a5a3-a4bfcebcdcf6"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -6002,7 +6301,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 172.72 62.23 180)
+		(at 172.72 64.77 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6013,7 +6312,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0daa69f-4d8a-4eaf-b428-237e9df9c195")
 		(property "Reference" "#PWR056"
-			(at 172.72 58.42 0)
+			(at 172.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6024,7 +6323,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 172.72 67.31 0)
+			(at 172.72 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6034,7 +6333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 62.23 0)
+			(at 172.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6045,7 +6344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 62.23 0)
+			(at 172.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6056,7 +6355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 62.23 0)
+			(at 172.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,6 +6372,88 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/7461f53d-9338-474f-a5a3-a4bfcebcdcf6"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec4772be-2ade-41f7-bac4-86b0d8a0fcdc")
+		(property "Reference" "R38"
+			(at 41.91 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.592 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29272d09-8861-4ae7-ac31-ad9350676488")
+		)
+		(pin "1"
+			(uuid "64623cc4-c63c-4522-b075-bdce1340e7f2")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/7461f53d-9338-474f-a5a3-a4bfcebcdcf6"
+					(reference "R38")
 					(unit 1)
 				)
 			)

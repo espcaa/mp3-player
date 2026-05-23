@@ -108,3 +108,31 @@ _schematic for the power button_\
 i need to sleep noww\
 \
 **Total time spent: 4 hours**
+
+## 23rd May 2026
+
+I locked in on a transatlantic flight and made a lot of progress!\
+
+- new power latch circuit
+- better hierarical sheet structure
+- more buses :D
+- io expanders to fit everything
+- screen wiring
+
+\
+<img src="assets/23-05-26_01.png" alt="" width="400"/>
+\_power latch circuit*\
+\
+<img src="assets/23-05-26_02.png" alt="" width="400"/>
+\_hierarchical sheets :3c*\
+\
+<img src="assets/23-05-26_03.png" alt="" width="400"/>
+\_io expander thingies\_\
+\
+<img src="assets/23-05-26_04.png" alt="" width="400"/>
+\_screennn\_\
+\
+<img src="assets/23-05-26_05.png" alt="" width="400"/>
+\_bonus plane picture\_\
+
+**Total time spent: 6 hours**
