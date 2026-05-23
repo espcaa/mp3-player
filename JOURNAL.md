@@ -111,28 +111,37 @@ i need to sleep noww\
 
 ## 23rd May 2026
 
-I locked in on a transatlantic flight and made a lot of progress!\
+I locked in on a transatlantic flight and made a lot of progress!
 
 - new power latch circuit
-- better hierarical sheet structure
+- better hierarchical sheet structure
 - more buses :D
 - io expanders to fit everything
 - screen wiring
 
 \
 <img src="assets/23-05-26_01.png" alt="" width="400"/>
-\_power latch circuit*\
+\
+_power latch circuit_
+\
 \
 <img src="assets/23-05-26_02.png" alt="" width="400"/>
-\_hierarchical sheets :3c*\
+\
+_hierarchical sheets_
+\
 \
 <img src="assets/23-05-26_03.png" alt="" width="400"/>
-\_io expander thingies\_\
 \
-<img src="assets/23-05-26_04.png" alt="" width="400"/>
-\_screennn\_\
+_io expander thingies_
 \
-<img src="assets/23-05-26_05.png" alt="" width="400"/>
-\_bonus plane picture\_\
+\
+<img src="assets/23-05-26_04.png" alt="" height="400"/>
+\
+_screennn_
+\
+\
+<img src="assets/23-05-26_05.jpeg" alt="" width="400"/>
+\
+_bonus plane picture_
 
 **Total time spent: 6 hours**
