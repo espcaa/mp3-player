@@ -3,4 +3,6 @@
 	(lib (name "feasycom") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/feasycom.pretty") (options "") (descr ""))
 	(lib (name "misc") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/misc.pretty") (options "") (descr ""))
 	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/easyeda2kicad.pretty") (options "") (descr ""))
+	(lib (name "EVQPUL02K") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/EVQPUL02K.pretty") (options "") (descr ""))
+	(lib (name "EVQPUC02K") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/EVQPUC02K.pretty") (options "") (descr ""))
 )

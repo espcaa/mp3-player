@@ -7425,6 +7425,12 @@
 		(uuid "1d810fb8-d7ea-486a-8e4e-373eca73040f")
 	)
 	(junction
+		(at 333.375 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24064881-93a6-4e93-9ac2-8d5065640554")
+	)
+	(junction
 		(at 116.84 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7557,12 +7563,6 @@
 		(uuid "67ba5e18-8ff9-4ae9-9939-64988d61f199")
 	)
 	(junction
-		(at 329.565 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aa7f361-4b43-43f0-98b1-92ed4475ca99")
-	)
-	(junction
 		(at 340.36 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7579,6 +7579,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71761bf8-e57b-4d03-bfe6-3d97a0eaec71")
+	)
+	(junction
+		(at 474.345 206.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "730aa6fc-2f8c-4767-b07e-695491316860")
 	)
 	(junction
 		(at 97.79 41.91)
@@ -7599,12 +7605,6 @@
 		(uuid "801853e3-d101-4343-9016-25330b829382")
 	)
 	(junction
-		(at 53.34 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81d5d0fa-f61d-447d-93fe-0116ffe1cae5")
-	)
-	(junction
 		(at 85.09 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7621,6 +7621,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90c29599-8a24-4318-942c-cee1dce11e3b")
+	)
+	(junction
+		(at 53.34 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96637d12-a279-401c-b204-c21680de7488")
 	)
 	(junction
 		(at 110.49 41.91)
@@ -8883,6 +8889,16 @@
 	)
 	(wire
 		(pts
+			(xy 474.345 206.375) (xy 481.965 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdc3d82-2631-4b4a-840c-db52960338da")
+	)
+	(wire
+		(pts
 			(xy 116.84 227.33) (xy 121.92 227.33)
 		)
 		(stroke
@@ -8890,16 +8906,6 @@
 			(type default)
 		)
 		(uuid "1c1c8b84-584e-424f-8847-fd7ccc41d57a")
-	)
-	(wire
-		(pts
-			(xy 329.565 60.96) (xy 329.565 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c24fc44-6a5b-4659-b5db-1e27de5a7bcd")
 	)
 	(wire
 		(pts
@@ -8933,13 +8939,13 @@
 	)
 	(wire
 		(pts
-			(xy 471.805 201.93) (xy 471.17 201.93)
+			(xy 338.455 77.47) (xy 333.375 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21f42a5b-c7de-4d80-b4fa-118371feb0f0")
+		(uuid "204bf073-3326-407f-93b5-471cc49ab84b")
 	)
 	(wire
 		(pts
@@ -9053,6 +9059,16 @@
 	)
 	(wire
 		(pts
+			(xy 474.345 201.93) (xy 471.17 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc19398-82ee-4ff3-a620-7903664209be")
+	)
+	(wire
+		(pts
 			(xy 318.77 184.15) (xy 337.82 184.15)
 		)
 		(stroke
@@ -9120,16 +9136,6 @@
 			(type default)
 		)
 		(uuid "32f3e3d9-ed85-4ac0-bb15-bf7188773b15")
-	)
-	(wire
-		(pts
-			(xy 349.885 69.85) (xy 329.565 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3304c965-9e5b-42b7-8bbd-f7aac9dbb3bc")
 	)
 	(wire
 		(pts
@@ -9333,6 +9339,16 @@
 	)
 	(wire
 		(pts
+			(xy 333.375 77.47) (xy 325.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432d12ec-ca25-4565-96ec-9509946fda7c")
+	)
+	(wire
+		(pts
 			(xy 40.64 55.88) (xy 45.72 55.88)
 		)
 		(stroke
@@ -9373,7 +9389,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 162.56) (xy 53.34 165.1)
+			(xy 53.34 157.48) (xy 53.34 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9723,6 +9739,16 @@
 	)
 	(wire
 		(pts
+			(xy 333.375 59.69) (xy 333.375 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65432af7-7058-42a5-b8ee-0a0d37e34b13")
+	)
+	(wire
+		(pts
 			(xy 45.72 41.91) (xy 40.64 41.91)
 		)
 		(stroke
@@ -9940,6 +9966,16 @@
 			(type default)
 		)
 		(uuid "6ffd4c55-4ce0-4651-accf-c8996099c607")
+	)
+	(wire
+		(pts
+			(xy 474.345 206.375) (xy 474.345 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70929da1-ac67-40e6-8998-a60ee8a954ee")
 	)
 	(wire
 		(pts
@@ -10363,6 +10399,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.965 210.185) (xy 481.965 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e936cd4-77a5-4e31-8cb0-bd8bca8ec3dc")
+	)
+	(wire
+		(pts
 			(xy 116.84 227.33) (xy 116.84 237.49)
 		)
 		(stroke
@@ -10550,6 +10596,16 @@
 			(type default)
 		)
 		(uuid "a26a2bf4-b89c-46ac-8aba-b35271972b14")
+	)
+	(wire
+		(pts
+			(xy 474.345 215.265) (xy 474.345 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29f3e21-0f33-4c72-af09-735ad1c42643")
 	)
 	(wire
 		(pts
@@ -10750,16 +10806,6 @@
 			(type default)
 		)
 		(uuid "ade5c9e7-d9f6-4dc6-a8ff-b5fbbd1d2676")
-	)
-	(wire
-		(pts
-			(xy 426.72 191.77) (xy 425.45 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae08aaa6-b24b-4812-8f46-41f2f69fcd8f")
 	)
 	(wire
 		(pts
@@ -11543,7 +11589,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.885 71.12) (xy 354.33 71.12)
+			(xy 349.885 71.12) (xy 353.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11723,7 +11769,7 @@
 	)
 	(wire
 		(pts
-			(xy 329.565 69.85) (xy 325.12 69.85)
+			(xy 325.12 69.85) (xy 349.885 69.85)
 		)
 		(stroke
 			(width 0)
@@ -11793,7 +11839,7 @@
 	)
 	(bus
 		(pts
-			(xy 340.995 83.185) (xy 341.63 83.185)
+			(xy 340.995 83.185) (xy 342.265 83.185)
 		)
 		(stroke
 			(width 0)
@@ -12262,7 +12308,7 @@
 		(uuid "40621d04-9e6c-4c96-aac8-7768bbc13a17")
 	)
 	(label "CARD_DETECT"
-		(at 354.33 71.12 0)
+		(at 353.06 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12932,12 +12978,12 @@
 		(uuid "a9acd63d-a08e-4edd-8341-85de24e26203")
 	)
 	(label "CARD_DETECT"
-		(at 471.805 201.93 0)
+		(at 474.345 215.265 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "aa6ef8f5-7c36-4ef8-a333-fe1625deb8db")
 	)
@@ -13292,7 +13338,7 @@
 		(uuid "e1b27158-9ff9-43fd-934c-1236bebfe4eb")
 	)
 	(label "GPIO29"
-		(at 426.72 191.77 90)
+		(at 425.45 191.77 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13539,7 +13585,7 @@
 	)
 	(hierarchical_label "VOLUME{UP DOWN}"
 		(shape input)
-		(at 341.63 83.185 0)
+		(at 342.265 83.185 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13569,6 +13615,17 @@
 			(justify left)
 		)
 		(uuid "748002d5-8095-4869-b794-71dbb838f6bc")
+	)
+	(hierarchical_label "CHG_PIN"
+		(shape input)
+		(at 338.455 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "807f71d3-cc06-4d46-8ab6-e61535dd1c5d")
 	)
 	(hierarchical_label "I2S{LRCK DIN BCK SCK}"
 		(shape input)
@@ -13981,6 +14038,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 104.14 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 104.14 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4ebfbdf-2ccb-4faf-b7ab-68e6159efe78")
 		)
@@ -14219,6 +14298,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a383324-f9eb-46f6-b208-6c773972d84d")
 		)
@@ -14291,6 +14392,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 58.42 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -14504,7 +14627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 432.562 198.12 90)
 			(hide yes)
 			(show_name no)
@@ -14528,6 +14651,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 434.34 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 434.34 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 434.34 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14709,84 +14854,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 329.565 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "240a83fc-54ce-47af-a1dd-77157cfe1e01")
-		(property "Reference" "#PWR0120"
-			(at 329.565 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 329.565 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 329.565 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 329.565 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 329.565 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe881344-fbaa-46bb-97e5-f355e223dd62")
-		)
-		(instances
-			(project "mp3player"
-				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 351.79 184.15 90)
 		(unit 1)
@@ -14899,7 +14966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 452.882 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -14932,6 +14999,50 @@
 				)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 454.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 454.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 454.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25197"
+			(at 454.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3581f13d-57c9-4cda-9e5e-a01fa7edfb23")
 		)
@@ -14942,6 +15053,110 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 333.375 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a4aff9a-b12f-49b5-bfed-323fa11b998d")
+		(property "Reference" "R29"
+			(at 335.28 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 335.28 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 331.597 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 333.375 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 333.375 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 333.375 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 333.375 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49621bb4-b8fb-42f6-8e53-18ba6228656d")
+		)
+		(pin "1"
+			(uuid "ae198d92-5488-40f1-8d93-a0445706bd4d")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -15083,6 +15298,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 25.4 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 25.4 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 25.4 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -15243,6 +15480,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 180.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 180.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15492,6 +15751,39 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C3040877"
+			(at 116.84 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 116.84 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 116.84 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98ad9ec1-516e-4c42-bee5-7c1f7e64488e")
 		)
@@ -15595,6 +15887,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 469.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 469.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19f365c1-7479-418e-8f85-36b4fba07e13")
 		)
@@ -15633,7 +15947,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-1088-AR02016"
 			(at 40.64 161.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15644,7 +15958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
 			(at 34.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -15668,6 +15982,39 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 39.37 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C720477"
+			(at 39.37 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 39.37 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 39.37 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15827,6 +16174,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 269.24 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 269.24 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 269.24 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -16189,6 +16558,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 45.72 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 45.72 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80c19a6e-937b-41fa-92a2-b7f64d8d277e")
 		)
@@ -16261,6 +16652,39 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24"
+			(at 307.34 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C140277"
+			(at 307.34 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 307.34 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 307.34 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16491,6 +16915,39 @@
 		)
 		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
 			(at 53.34 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2456297"
+			(at 53.34 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 53.34 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 53.34 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16839,6 +17296,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e638852e-2601-4b6c-afa8-77d26339dd7e")
 		)
@@ -16911,6 +17390,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 97.79 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 97.79 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17128,7 +17629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.292 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -17161,6 +17662,39 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 179.07 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 179.07 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25900"
+			(at 179.07 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "929e2cfd-cc37-4ada-9a10-5bb5082e34c4")
 		)
@@ -17171,88 +17705,6 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 329.565 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "666f1c3e-a51c-47cf-8b01-468c2214883a")
-		(property "Reference" "R47"
-			(at 332.105 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 332.105 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.787 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 329.565 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 329.565 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d8b67472-4a3c-4efe-bc64-c60d098bc724")
-		)
-		(pin "1"
-			(uuid "62321e26-6fc1-44c2-8ff8-74a412a69768")
-		)
-		(instances
-			(project "mp3player"
-				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
-					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -17315,6 +17767,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 58.42 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17397,6 +17871,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 39.37 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 39.37 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -17532,7 +18028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 421.64 227.838 90)
 			(hide yes)
 			(show_name no)
@@ -17556,6 +18052,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 421.64 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 421.64 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 421.64 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17724,6 +18242,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 67.31 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 67.31 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8a1d5071-49cc-4b42-b35a-d186b7f9b143")
 		)
@@ -17795,6 +18335,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 441.96 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 441.96 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 441.96 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17886,6 +18448,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 46.99 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 46.99 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30b5ca49-fb06-4867-81de-89111b53bf92")
 		)
@@ -17957,6 +18541,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 193.04 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 193.04 267.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 193.04 267.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18204,6 +18810,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 71.12 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8789c5dd-6e63-4616-b994-e45244ab626f")
 		)
@@ -18275,6 +18903,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 331.47 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 331.47 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 331.47 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18379,7 +19029,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 53.34 162.56 0)
+		(at 53.34 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18390,7 +19040,7 @@
 		(fields_autoplaced yes)
 		(uuid "882d706e-6c1b-43a6-bb56-fab845433cd1")
 		(property "Reference" "#PWR011"
-			(at 53.34 166.37 0)
+			(at 53.34 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18401,7 +19051,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 53.34 157.48 0)
+			(at 53.34 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18411,7 +19061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 162.56 0)
+			(at 53.34 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18422,7 +19072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 162.56 0)
+			(at 53.34 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18433,7 +19083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 162.56 0)
+			(at 53.34 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18755,6 +19405,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 104.14 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 104.14 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07c892db-b0e9-44b2-a4c5-541f5bb630ed")
 		)
@@ -18915,6 +19587,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 85.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 85.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "79f7b2d9-75e0-4634-b716-8fefae1df810")
 		)
@@ -18986,6 +19680,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 346.71 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 346.71 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 346.71 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19067,6 +19783,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 419.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 419.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 419.1 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19205,7 +19943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 371.348 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -19228,6 +19966,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 369.57 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 369.57 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 369.57 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -19554,6 +20314,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 449.58 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 449.58 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc51b9b3-da03-4ff7-a55c-88aec8c64f7e")
 		)
@@ -19601,7 +20383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 414.02 202.438 90)
 			(hide yes)
 			(show_name no)
@@ -19625,6 +20407,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 414.02 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 414.02 200.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 414.02 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19716,6 +20520,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 167.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 167.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6a64cb28-d2e9-4b23-8536-5cc36fb52af5")
 		)
@@ -19726,6 +20552,110 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 481.965 213.995 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b125cc46-6cec-47d3-806c-56145d8deae0")
+		(property "Reference" "R47"
+			(at 479.425 215.2651 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 479.425 212.7251 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 483.743 213.995 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 481.965 213.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 481.965 213.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 481.965 213.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 481.965 213.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dad117ae-d2f5-4e32-863c-678b7a2f7336")
+		)
+		(pin "1"
+			(uuid "2abf9c69-746c-450c-9e4f-3cd4d980f139")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -19843,7 +20773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.402 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -19866,6 +20796,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25900"
 			(at 170.18 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20026,6 +20989,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 171.45 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 171.45 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 171.45 237.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20431,6 +21416,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 455.93 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 455.93 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "68b718b6-ba28-4a18-aaa4-e445cbd89400")
 		)
@@ -20541,6 +21548,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 318.77 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 318.77 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b01d1faa-07ae-4134-9e21-d8321e699521")
 		)
@@ -20590,7 +21619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "feasycom:FSC-BT1114QI"
 			(at 335.28 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -20601,7 +21630,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://document.feasycom.com/docs/datasheet/BT1114QI/FSC-BT1114QI_Datasheet_EN.pdf"
 			(at 335.28 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -20613,6 +21642,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 335.28 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 335.28 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 335.28 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -20834,6 +21885,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 121.92 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 121.92 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "856db2bc-1282-4d74-b561-e63d81c4dd10")
 		)
@@ -20904,6 +21977,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 27.94 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 27.94 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -21077,6 +22172,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 59.69 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 59.69 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc1a1677-68ce-48d6-8b15-0d0265ed5964")
 		)
@@ -21183,6 +22300,28 @@
 		)
 		(property "LCSC Part" "C20625731"
 			(at 200.66 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 180.34 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 180.34 251.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21378,6 +22517,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 461.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 461.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "399cb8c3-b35a-4c72-b57d-e17dad9cac34")
 		)
@@ -21528,6 +22689,39 @@
 		)
 		(property "Description" "High-Brightness, White LED Driver, 3V to 18V input voltage range, internal switch, constant current, up to 38V/1.2A output, WSON-6"
 			(at 441.96 68.834 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C122568"
+			(at 441.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 441.96 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 441.96 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21713,6 +22907,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 71.12 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80360287-9aea-40aa-9dbb-3dea3b9be3fd")
 		)
@@ -21801,6 +23017,84 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 481.965 217.805 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de669c6f-5d11-4be5-86a4-ad36699ce070")
+		(property "Reference" "#PWR0120"
+			(at 481.965 213.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 481.965 222.885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 481.965 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 481.965 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 481.965 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c49437d2-df11-49ad-b330-cfecb738dfb4")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -21952,6 +23246,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c5bb231-27b2-45ab-b8c7-0c40b305baef")
 		)
@@ -22001,7 +23317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 103.632 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -22024,6 +23340,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 105.41 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 105.41 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22083,7 +23421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 282.702 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -22106,6 +23444,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 284.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 284.48 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 284.48 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -22355,6 +23715,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 425.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 425.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f80c971f-afc4-4df6-beed-0dec31665690")
 		)
@@ -22402,7 +23784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 420.37 197.358 90)
 			(hide yes)
 			(show_name no)
@@ -22426,6 +23808,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 420.37 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 420.37 195.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 420.37 195.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22517,6 +23921,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 36.83 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 36.83 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0530743a-674b-4f3a-9553-142b421e7467")
 		)
@@ -22588,6 +24014,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 128.27 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 128.27 265.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 128.27 265.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22722,7 +24170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 410.21 212.598 90)
 			(hide yes)
 			(show_name no)
@@ -22746,6 +24194,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 410.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 410.21 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 410.21 210.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22826,6 +24296,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 171.45 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 171.45 267.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 171.45 267.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22932,6 +24424,17 @@
 			(at 138.43 124.46 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42415655"
+			(at 138.43 121.92 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -23256,6 +24759,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 38.1 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 38.1 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1e258b1-a932-401c-ad78-d00f19586a3f")
 		)
@@ -23338,6 +24863,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 45.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 45.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4190aa72-153b-4053-ad21-dfeea174d1f9")
 		)
@@ -23348,6 +24895,84 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 333.375 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff353dd-1afd-475b-a690-7a3e51c8328d")
+		(property "Reference" "#PWR0122"
+			(at 333.375 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 333.375 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 333.375 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 333.375 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 333.375 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea56d81b-1656-4c5f-a546-74077d028395")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)

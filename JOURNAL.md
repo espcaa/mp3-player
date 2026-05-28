@@ -145,3 +145,14 @@ _screennn_
 _bonus plane picture_
 
 **Total time spent: 6 hours**
+
+## 28th May 2026
+
+Today I worked on the component assignment so that I can start routing!\
+I also cleaned up the schematic everywhere & added some missing stuff.\
+\
+<img src="assets/28-05-26_01.png" alt="" width="400"/>
+\
+_component assignment_
+
+**Total time spent: 4 hours**

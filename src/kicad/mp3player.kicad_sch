@@ -5,25 +5,15 @@
 	(uuid "730d0887-0a09-4397-bcb4-2959d410b5ba")
 	(paper "A5")
 	(lib_symbols)
-	(wire
+	(bus
 		(pts
-			(xy 118.11 40.005) (xy 92.71 40.005)
+			(xy 102.87 31.115) (xy 142.24 31.115)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "100dce1c-46bf-4216-954b-a4bfd5737769")
-	)
-	(wire
-		(pts
-			(xy 92.71 37.465) (xy 118.11 37.465)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19fddd63-0318-476e-a222-b4853d083ecc")
+		(uuid "018c7755-5feb-4f35-8206-dc447c697c3f")
 	)
 	(wire
 		(pts
@@ -37,7 +27,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 51.435) (xy 92.71 51.435)
+			(xy 122.555 51.435) (xy 102.87 51.435)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +47,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 53.975) (xy 99.06 66.04)
+			(xy 120.015 53.975) (xy 120.015 66.04)
 		)
 		(stroke
 			(width 0)
@@ -65,19 +55,29 @@
 		)
 		(uuid "50b2c5f6-2546-4100-a2be-4c3b7ff52596")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 118.11 31.115) (xy 92.71 31.115)
+			(xy 102.87 37.465) (xy 142.24 37.465)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f41a52b-afd4-4a5b-a683-e66c043efa10")
+		(uuid "5f2a6bba-1c1e-4ad4-9f11-9ca426aa99f2")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 58.42 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7838e1-cc7a-4a89-8732-522139d2cd08")
 	)
 	(bus
 		(pts
-			(xy 101.6 63.5) (xy 101.6 51.435)
+			(xy 122.555 63.5) (xy 122.555 51.435)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +97,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 63.5) (xy 101.6 63.5)
+			(xy 142.24 63.5) (xy 122.555 63.5)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +137,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 66.04) (xy 118.11 66.04)
+			(xy 120.015 66.04) (xy 142.24 66.04)
 		)
 		(stroke
 			(width 0)
@@ -155,9 +155,19 @@
 		)
 		(uuid "d5e6db16-8f9c-4215-bb64-41b18fb3a6a2")
 	)
+	(wire
+		(pts
+			(xy 102.87 40.005) (xy 142.24 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14a1ef2-1777-4c40-8c4c-247441a82f10")
+	)
 	(bus
 		(pts
-			(xy 92.71 53.975) (xy 99.06 53.975)
+			(xy 102.87 53.975) (xy 120.015 53.975)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +176,7 @@
 		(uuid "e33ac2ed-e738-412c-a9f3-0278b1efabeb")
 	)
 	(sheet
-		(at 118.11 58.42)
+		(at 142.24 58.42)
 		(size 40.005 14.605)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -182,7 +192,7 @@
 		)
 		(uuid "0e33fdc2-677c-4285-9089-c56674bb07ef")
 		(property "Sheetname" "ui"
-			(at 118.11 57.7084 0)
+			(at 142.24 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -193,7 +203,7 @@
 			)
 		)
 		(property "Sheetfile" "ui.kicad_sch"
-			(at 118.11 73.6096 0)
+			(at 142.24 73.6096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -204,7 +214,7 @@
 			)
 		)
 		(pin "DPAD{UP DOWN LEFT RIGHT CENTER}" input
-			(at 118.11 63.5 180)
+			(at 142.24 63.5 180)
 			(uuid "a1448019-c0e6-4188-a0c6-b343ade393e8")
 			(effects
 				(font
@@ -214,7 +224,7 @@
 			)
 		)
 		(pin "VOLUME{UP DOWN}" input
-			(at 118.11 66.04 180)
+			(at 142.24 66.04 180)
 			(uuid "0e146f36-962c-4835-958b-5d519fc939bb")
 			(effects
 				(font
@@ -338,6 +348,16 @@
 				(justify right)
 			)
 		)
+		(pin "CHG_PIN" input
+			(at 58.42 88.9 90)
+			(uuid "3dc6d3a0-de75-4558-847c-e029364b05f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba"
@@ -347,7 +367,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 28.575)
+		(at 142.24 28.575)
 		(size 38.735 19.685)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -363,7 +383,7 @@
 		)
 		(uuid "7461f53d-9338-474f-a5a3-a4bfcebcdcf6")
 		(property "Sheetname" "audio"
-			(at 118.11 27.8634 0)
+			(at 142.24 27.8634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -374,7 +394,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 118.11 48.8446 0)
+			(at 142.24 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -385,7 +405,7 @@
 			)
 		)
 		(pin "ANALOG_LDO_EN" input
-			(at 118.11 40.005 180)
+			(at 142.24 40.005 180)
 			(uuid "ab290924-2753-4e8d-b6fd-2e97d3866b5c")
 			(effects
 				(font
@@ -395,7 +415,7 @@
 			)
 		)
 		(pin "I2S{LRCK DIN BCK SCK}" input
-			(at 118.11 31.115 180)
+			(at 142.24 31.115 180)
 			(uuid "a0e45dac-7b0f-43d9-9e7a-fc731524b090")
 			(effects
 				(font
@@ -405,7 +425,7 @@
 			)
 		)
 		(pin "JACK_DETECTION" input
-			(at 118.11 37.465 180)
+			(at 142.24 37.465 180)
 			(uuid "785162ec-5d23-4cbf-ba81-f839402340c3")
 			(effects
 				(font
@@ -424,7 +444,7 @@
 	)
 	(sheet
 		(at 24.765 26.67)
-		(size 67.945 29.845)
+		(size 78.105 29.845)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -480,7 +500,7 @@
 			)
 		)
 		(pin "I2S{LRCK DIN BCK SCK}" input
-			(at 92.71 31.115 0)
+			(at 102.87 31.115 0)
 			(uuid "a124b8a0-03e6-4c3b-bcc8-8a79c8d7d373")
 			(effects
 				(font
@@ -540,7 +560,7 @@
 			)
 		)
 		(pin "ANALOG_LDO_EN" input
-			(at 92.71 40.005 0)
+			(at 102.87 40.005 0)
 			(uuid "50b76bda-c86e-47e5-972e-ec18faaaa868")
 			(effects
 				(font
@@ -550,7 +570,7 @@
 			)
 		)
 		(pin "JACK_DETECTION" input
-			(at 92.71 37.465 0)
+			(at 102.87 37.465 0)
 			(uuid "3d98919c-0b3f-4942-8613-31f88ca02796")
 			(effects
 				(font
@@ -560,7 +580,7 @@
 			)
 		)
 		(pin "DPAD{UP DOWN LEFT RIGHT CENTER}" input
-			(at 92.71 53.975 0)
+			(at 102.87 53.975 0)
 			(uuid "f2bd71b4-81fc-4b02-9a32-9cec676d600b")
 			(effects
 				(font
@@ -570,13 +590,23 @@
 			)
 		)
 		(pin "VOLUME{UP DOWN}" input
-			(at 92.71 51.435 0)
+			(at 102.87 51.435 0)
 			(uuid "80438f6d-bfc0-4e96-8184-b4dd6c1da7f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CHG_PIN" input
+			(at 58.42 56.515 270)
+			(uuid "c8239d93-6b13-46ec-8ae5-bfd2976c7543")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

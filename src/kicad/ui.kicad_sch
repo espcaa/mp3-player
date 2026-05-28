@@ -565,8 +565,8 @@
 		)
 	)
 	(rectangle
-		(start 16.51 69.85)
-		(end 66.675 98.425)
+		(start 16.51 63.5)
+		(end 66.675 92.075)
 		(stroke
 			(width 0)
 			(type default)
@@ -590,7 +590,7 @@
 	)
 	(text "dpad\n"
 		(exclude_from_sim no)
-		(at 18.415 60.325 0)
+		(at 19.05 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -600,7 +600,7 @@
 	)
 	(text "side volume buttons\n"
 		(exclude_from_sim no)
-		(at 26.416 101.092 0)
+		(at 26.416 94.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -615,7 +615,7 @@
 		(uuid "1780c589-5eea-4123-9eab-806ce47880b3")
 	)
 	(junction
-		(at 42.545 93.98)
+		(at 42.545 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6292fbdc-e866-428c-95e8-2c7aef5cd87b")
@@ -639,7 +639,7 @@
 		(uuid "ac15af5c-e599-45ca-bd57-10e9add57b26")
 	)
 	(junction
-		(at 42.545 81.28)
+		(at 42.545 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c895aa6f-c469-40ae-a970-2451a290ad3f")
@@ -660,7 +660,7 @@
 		(uuid "32a9f515-0ae6-46b1-b47c-04e4b3550105")
 	)
 	(bus_entry
-		(at 57.785 109.855)
+		(at 57.785 103.505)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -705,7 +705,7 @@
 		(uuid "ac84a6b8-b525-4c7f-a13f-2d9f2eec59ba")
 	)
 	(bus_entry
-		(at 57.785 112.395)
+		(at 57.785 106.045)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -714,7 +714,7 @@
 		(uuid "ad73f0a9-3c96-43ec-9b8a-776731b40690")
 	)
 	(bus_entry
-		(at 57.785 109.855)
+		(at 57.785 103.505)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -723,7 +723,7 @@
 		(uuid "d18aa536-b74b-44b9-babb-dcc867d29a18")
 	)
 	(bus_entry
-		(at 57.785 112.395)
+		(at 57.785 106.045)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -803,7 +803,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.785 106.68) (xy 57.785 112.395)
+			(xy 57.785 100.33) (xy 57.785 106.045)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +813,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.115 114.935) (xy 55.245 114.935)
+			(xy 31.115 108.585) (xy 55.245 108.585)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +853,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 81.28) (xy 42.545 81.28)
+			(xy 50.8 74.93) (xy 42.545 74.93)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +873,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 93.98) (xy 51.435 93.98)
+			(xy 42.545 87.63) (xy 51.435 87.63)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.115 112.395) (xy 55.245 112.395)
+			(xy 31.115 106.045) (xy 55.245 106.045)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 93.98) (xy 42.545 93.98)
+			(xy 38.1 87.63) (xy 42.545 87.63)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 81.28) (xy 38.1 81.28)
+			(xy 42.545 74.93) (xy 38.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1042,7 +1042,7 @@
 		(uuid "1067845e-e4bc-43c5-a2a2-6f49435534d3")
 	)
 	(label "VOLUME_UP"
-		(at 31.115 114.935 180)
+		(at 31.115 108.585 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1052,7 +1052,7 @@
 		(uuid "6194f82f-360d-4618-a9cb-b105fdf2edf4")
 	)
 	(label "VOLUME.DOWN"
-		(at 55.245 112.395 180)
+		(at 55.245 106.045 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1062,7 +1062,7 @@
 		(uuid "9ab7667b-6b74-4b2a-afa4-6ee2987d1908")
 	)
 	(label "VOLUME_DOWN"
-		(at 50.8 81.28 0)
+		(at 50.8 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1092,7 +1092,7 @@
 		(uuid "ad505bdd-d0ce-4f3c-a2b8-70ac8df1c3d2")
 	)
 	(label "VOLUME_DOWN"
-		(at 31.115 112.395 180)
+		(at 31.115 106.045 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1112,7 +1112,7 @@
 		(uuid "d2bf535c-fb5e-4fa6-90c6-3bdc38c962f5")
 	)
 	(label "VOLUME_UP"
-		(at 51.435 93.98 0)
+		(at 51.435 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1132,7 +1132,7 @@
 		(uuid "f94917a1-0cbf-46c1-95fb-8072dafe49b8")
 	)
 	(label "VOLUME.UP"
-		(at 55.245 114.935 180)
+		(at 55.245 108.585 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1143,7 +1143,7 @@
 	)
 	(hierarchical_label "VOLUME{UP DOWN}"
 		(shape input)
-		(at 57.785 106.68 180)
+		(at 57.785 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1243,7 +1243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 93.98 270)
+		(at 27.94 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1254,7 +1254,7 @@
 		(fields_autoplaced yes)
 		(uuid "1854b805-162b-404a-a029-8612c6b43a3e")
 		(property "Reference" "#PWR093"
-			(at 21.59 93.98 0)
+			(at 21.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1265,7 +1265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 93.9799 90)
+			(at 24.13 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1276,7 +1276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 93.98 0)
+			(at 27.94 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,7 +1287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 93.98 0)
+			(at 27.94 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1298,7 +1298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 93.98 0)
+			(at 27.94 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1352,7 +1352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 25.4 37.973 90)
 			(hide yes)
 			(show_name no)
@@ -1385,6 +1385,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 25.4 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 25.4 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e064106b-ca91-4b95-8b20-102a79e321d0")
 		)
@@ -1402,7 +1424,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 33.02 93.98 0)
+		(at 33.02 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1413,7 +1435,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fc88972-f43f-4725-a80d-495754110fff")
 		(property "Reference" "SW7"
-			(at 33.02 86.36 0)
+			(at 33.02 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1422,8 +1444,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 33.02 88.9 0)
+		(property "Value" "EVQPUL02K"
+			(at 33.02 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1432,8 +1454,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 88.9 0)
+		(property "Footprint" "EVQPUL02K:KEY-SMD_4P-L4.7-W3.5-P1.70-LS6.4-EH"
+			(at 33.02 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1444,7 +1466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 88.9 0)
+			(at 33.02 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1455,7 +1477,40 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 33.02 93.98 0)
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C79175"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 33.02 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1482,7 +1537,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 42.545 86.36 270)
+		(at 42.545 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1493,7 +1548,7 @@
 		(fields_autoplaced yes)
 		(uuid "39256909-9085-4f46-b2ea-74120f381f6e")
 		(property "Reference" "#PWR0113"
-			(at 38.735 86.36 0)
+			(at 38.735 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1504,7 +1559,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 86.3599 90)
+			(at 45.72 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1515,7 +1570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.545 86.36 0)
+			(at 42.545 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1526,7 +1581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.545 86.36 0)
+			(at 42.545 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1537,7 +1592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 42.545 86.36 0)
+			(at 42.545 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1704,6 +1759,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 71.12 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5400386e-a263-442d-82d6-c600d3a7b9b4")
 		)
@@ -1751,7 +1828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 37.973 90)
 			(hide yes)
 			(show_name no)
@@ -1784,6 +1861,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 91.44 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 91.44 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9db111a8-dc15-452b-9c50-d2ef905a77b3")
 		)
@@ -1801,7 +1900,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 42.545 77.47 0)
+		(at 42.545 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1812,7 +1911,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c5b4e67-7fed-4d5b-ba64-a3cef982b7f2")
 		(property "Reference" "R40"
-			(at 44.45 76.1999 0)
+			(at 44.45 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1823,7 +1922,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 44.45 78.7399 0)
+			(at 44.45 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1833,8 +1932,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.767 77.47 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 40.767 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1845,7 +1944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.545 77.47 0)
+			(at 42.545 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1955,29 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 42.545 77.47 0)
+			(at 42.545 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 42.545 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 42.545 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1913,7 +2034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.785 37.973 90)
 			(hide yes)
 			(show_name no)
@@ -1946,6 +2067,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 57.785 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 57.785 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "377e71d0-d297-425b-bad8-6b63696847b2")
 		)
@@ -1963,7 +2106,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 42.545 73.66 270)
+		(at 42.545 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1974,7 +2117,7 @@
 		(fields_autoplaced yes)
 		(uuid "57cd0443-a910-4298-bb1e-0f7db67bc544")
 		(property "Reference" "#PWR0114"
-			(at 38.735 73.66 0)
+			(at 38.735 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,7 +2128,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 73.6599 90)
+			(at 45.72 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1996,7 +2139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.545 73.66 0)
+			(at 42.545 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2007,7 +2150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.545 73.66 0)
+			(at 42.545 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2018,7 +2161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 42.545 73.66 0)
+			(at 42.545 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2042,7 +2185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 81.28 270)
+		(at 27.94 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2053,7 +2196,7 @@
 		(fields_autoplaced yes)
 		(uuid "5844e297-3a68-4074-b7f2-b11e0a4acf6f")
 		(property "Reference" "#PWR092"
-			(at 21.59 81.28 0)
+			(at 21.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +2207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 81.2799 90)
+			(at 24.13 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2075,7 +2218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 81.28 0)
+			(at 27.94 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,7 +2229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 81.28 0)
+			(at 27.94 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2097,7 +2240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 81.28 0)
+			(at 27.94 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.005 37.973 90)
 			(hide yes)
 			(show_name no)
@@ -2175,6 +2318,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 40.005 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 40.005 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 40.005 36.195 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2444,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 42.545 90.17 0)
+		(at 42.545 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2290,7 +2455,7 @@
 		(fields_autoplaced yes)
 		(uuid "832532e5-cd57-4eed-a095-86684f0ed542")
 		(property "Reference" "R41"
-			(at 44.45 88.8999 0)
+			(at 44.45 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2301,7 +2466,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 44.45 91.4399 0)
+			(at 44.45 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2311,8 +2476,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.767 90.17 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 40.767 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,7 +2488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.545 90.17 0)
+			(at 42.545 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2499,29 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 42.545 90.17 0)
+			(at 42.545 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 42.545 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 42.545 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,6 +2613,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 53.975 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 53.975 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39fbf351-0a8b-4e7c-946d-b643c438dd5b")
 		)
@@ -2499,6 +2708,28 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 21.59 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 21.59 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 21.59 43.815 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,7 +2942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.93 37.973 90)
 			(hide yes)
 			(show_name no)
@@ -2735,6 +2966,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 74.93 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 74.93 36.195 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,6 +3079,28 @@
 				)
 			)
 		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 87.63 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 87.63 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c247315-f4aa-4af4-87fd-d3ff0241cf1d")
 		)
@@ -2899,6 +3174,28 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 36.195 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 36.195 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 36.195 43.815 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,7 +3534,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 33.02 81.28 0)
+		(at 33.02 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3248,7 +3545,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2ff1f0c-36fb-4493-842d-490a94c378e8")
 		(property "Reference" "SW10"
-			(at 33.02 73.66 0)
+			(at 33.02 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3257,8 +3554,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 33.02 76.2 0)
+		(property "Value" "EVQPUL02K"
+			(at 33.02 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3267,8 +3564,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 76.2 0)
+		(property "Footprint" "EVQPUL02K:KEY-SMD_4P-L4.7-W3.5-P1.70-LS6.4-EH"
+			(at 33.02 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3279,7 +3576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 76.2 0)
+			(at 33.02 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3290,7 +3587,40 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 33.02 81.28 0)
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C79175"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
