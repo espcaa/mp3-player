@@ -3833,6 +3833,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.475 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26df2bfb-5bba-407e-8028-3b73dc0d45f8")
+	)
+	(wire
+		(pts
 			(xy 105.41 125.73) (xy 105.41 128.27)
 		)
 		(stroke
@@ -4530,6 +4540,16 @@
 			(type default)
 		)
 		(uuid "c5aaf4c2-9965-43f6-9431-aaacdeff45c0")
+	)
+	(wire
+		(pts
+			(xy 117.475 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7251d66-fedc-4e95-9311-ee0a2bef9f88")
 	)
 	(wire
 		(pts
@@ -5334,7 +5354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 272.0848 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -5379,6 +5399,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 273.05 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C59461"
 			(at 273.05 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5438,7 +5469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5483,6 +5514,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 149.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 149.86 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6289,7 +6331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 260.6548 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6334,6 +6376,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 261.62 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C59461"
 			(at 261.62 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7137,6 +7190,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 112.395 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca50025-4b8d-4b8e-9789-eb8dd98128b6")
+		(property "Reference" "J5"
+			(at 112.395 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 112.395 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 112.395 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 112.395 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C295747"
+			(at 112.395 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "522db441-a466-431c-a5a0-95dceb4fd860")
+		)
+		(pin "1"
+			(uuid "2aedcc1d-c184-4a5c-951d-0c08fa75b6c4")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/727f8b88-b598-49af-b523-8d5e77923d77"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 242.57 43.18 180)
 		(unit 1)
@@ -7170,7 +7314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.6048 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7215,6 +7359,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 242.57 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 242.57 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7430,7 +7585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.3248 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7475,6 +7630,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 161.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 161.29 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7802,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 168.6052 0)
 			(hide yes)
 			(show_name no)
@@ -7847,6 +8013,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 100.33 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 100.33 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -8178,7 +8355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0402S"
 			(at 180.34 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8223,6 +8400,28 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 180.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 180.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C408334"
 			(at 180.34 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8282,7 +8481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.5352 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8327,6 +8526,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 242.57 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 242.57 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8386,7 +8596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.1552 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8431,6 +8641,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 123.19 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19666"
 			(at 123.19 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9301,7 +9522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9346,6 +9567,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 53.34 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8598"
 			(at 53.34 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -9405,7 +9637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9450,6 +9682,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 138.43 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19666"
 			(at 138.43 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9700,7 +9943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.2252 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9745,6 +9988,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 175.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10276,7 +10530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 249.2248 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10321,6 +10575,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 250.19 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C59461"
 			(at 250.19 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10816,110 +11081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 121.92 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8b4ecb9-b547-4e2d-835d-9eba82fce8e1")
-		(property "Reference" "J5"
-			(at 119.38 71.1201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 119.38 68.5801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 121.92 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 121.92 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 121.92 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ed79203-45df-4ca6-8146-577f1a5e38e8")
-		)
-		(pin "1"
-			(uuid "c0da2097-0004-4d99-ae98-1a334a8b025b")
-		)
-		(instances
-			(project "mp3player"
-				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/727f8b88-b598-49af-b523-8d5e77923d77"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 68.58 130.81 270)
 		(unit 1)
@@ -11070,7 +11231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 62.23 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11115,6 +11276,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 62.23 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8598"
 			(at 62.23 120.65 0)
 			(hide yes)
 			(show_name no)

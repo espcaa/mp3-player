@@ -677,7 +677,7 @@
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -710,12 +710,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "sw",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -758,7 +758,7 @@
         "uuid": "730d0887-0a09-4397-bcb4-2959d410b5ba"
       }
     ],
-    "used_designators": "C33",
+    "used_designators": "J3,J5,J7",
     "variants": []
   },
   "sheets": [

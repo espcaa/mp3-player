@@ -642,7 +642,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x40"
+		(symbol "Connector_Generic:Conn_01x42"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -653,7 +653,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 50.8 0)
+				(at 0 53.34 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -662,8 +662,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x40"
-				(at 0 -53.34 0)
+			(property "Value" "Conn_01x42"
+				(at 0 -55.88 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -694,11 +694,21 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "\"Generic connector, single row, 01x42, script generated\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -727,16 +737,27 @@
 					)
 				)
 			)
-			(symbol "Conn_01x40_1_1"
+			(symbol "Conn_01x42_1_1"
 				(rectangle
-					(start -1.27 49.53)
-					(end 1.27 -52.07)
+					(start -1.27 52.07)
+					(end 1.27 -54.61)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 50.927)
+					(end 0 50.673)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -1179,8 +1200,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -53.213)
+					(end 0 -53.467)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 48.26 0)
+					(at -5.08 50.8 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1198,7 +1230,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 45.72 0)
+					(at -5.08 48.26 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1216,7 +1248,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 43.18 0)
+					(at -5.08 45.72 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1234,7 +1266,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 40.64 0)
+					(at -5.08 43.18 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1252,7 +1284,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 38.1 0)
+					(at -5.08 40.64 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1270,7 +1302,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 35.56 0)
+					(at -5.08 38.1 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1288,7 +1320,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 33.02 0)
+					(at -5.08 35.56 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1306,7 +1338,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 30.48 0)
+					(at -5.08 33.02 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1324,7 +1356,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 27.94 0)
+					(at -5.08 30.48 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1342,7 +1374,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 25.4 0)
+					(at -5.08 27.94 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1360,7 +1392,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 22.86 0)
+					(at -5.08 25.4 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1378,7 +1410,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 20.32 0)
+					(at -5.08 22.86 0)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1396,7 +1428,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 17.78 0)
+					(at -5.08 20.32 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1414,7 +1446,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1432,7 +1464,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -1450,7 +1482,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -1468,7 +1500,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -1486,7 +1518,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -1504,7 +1536,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -1522,7 +1554,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -1540,7 +1572,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_21"
 						(effects
@@ -1558,7 +1590,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_22"
 						(effects
@@ -1576,7 +1608,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_23"
 						(effects
@@ -1594,7 +1626,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_24"
 						(effects
@@ -1612,7 +1644,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_25"
 						(effects
@@ -1630,7 +1662,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_26"
 						(effects
@@ -1648,7 +1680,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_27"
 						(effects
@@ -1666,7 +1698,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 0)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_28"
 						(effects
@@ -1684,7 +1716,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -22.86 0)
+					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "Pin_29"
 						(effects
@@ -1702,7 +1734,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -25.4 0)
+					(at -5.08 -22.86 0)
 					(length 3.81)
 					(name "Pin_30"
 						(effects
@@ -1720,7 +1752,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -27.94 0)
+					(at -5.08 -25.4 0)
 					(length 3.81)
 					(name "Pin_31"
 						(effects
@@ -1738,7 +1770,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -30.48 0)
+					(at -5.08 -27.94 0)
 					(length 3.81)
 					(name "Pin_32"
 						(effects
@@ -1756,7 +1788,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -33.02 0)
+					(at -5.08 -30.48 0)
 					(length 3.81)
 					(name "Pin_33"
 						(effects
@@ -1774,7 +1806,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -35.56 0)
+					(at -5.08 -33.02 0)
 					(length 3.81)
 					(name "Pin_34"
 						(effects
@@ -1792,7 +1824,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -38.1 0)
+					(at -5.08 -35.56 0)
 					(length 3.81)
 					(name "Pin_35"
 						(effects
@@ -1810,7 +1842,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -40.64 0)
+					(at -5.08 -38.1 0)
 					(length 3.81)
 					(name "Pin_36"
 						(effects
@@ -1828,7 +1860,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -43.18 0)
+					(at -5.08 -40.64 0)
 					(length 3.81)
 					(name "Pin_37"
 						(effects
@@ -1846,7 +1878,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -45.72 0)
+					(at -5.08 -43.18 0)
 					(length 3.81)
 					(name "Pin_38"
 						(effects
@@ -1864,7 +1896,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -48.26 0)
+					(at -5.08 -45.72 0)
 					(length 3.81)
 					(name "Pin_39"
 						(effects
@@ -1882,7 +1914,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -50.8 0)
+					(at -5.08 -48.26 0)
 					(length 3.81)
 					(name "Pin_40"
 						(effects
@@ -1892,6 +1924,42 @@
 						)
 					)
 					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -50.8 0)
+					(length 3.81)
+					(name "Pin_41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -53.34 0)
+					(length 3.81)
+					(name "Pin_42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7264,6 +7332,16 @@
 		)
 		(uuid "293bb8a9-aded-43f7-99d8-4554140f25bb")
 	)
+	(text "41-42 are for shielding\n"
+		(exclude_from_sim no)
+		(at 264.795 271.145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37c131f8-8f83-48f8-a391-0e8992e4f290")
+	)
 	(text "primary flash"
 		(exclude_from_sim no)
 		(at 26.162 220.726 0)
@@ -9899,6 +9977,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 264.16) (xy 264.16 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd262ff-9a79-455c-a9f0-10620f64263b")
+	)
+	(wire
+		(pts
 			(xy 25.4 266.7) (xy 36.83 266.7)
 		)
 		(stroke
@@ -10306,6 +10394,16 @@
 			(type default)
 		)
 		(uuid "846c4b14-dbba-4efa-bdbb-daae043be12d")
+	)
+	(wire
+		(pts
+			(xy 262.89 266.7) (xy 264.16 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a16afc-4787-49d4-ab59-e827a02c554f")
 	)
 	(wire
 		(pts
@@ -15931,7 +16029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 468.9348 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15976,6 +16074,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 469.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 469.9 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16195,8 +16304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x40")
-		(at 269.24 210.82 0)
+		(lib_id "Connector_Generic:Conn_01x42")
+		(at 269.24 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16205,19 +16314,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a6c82e0-d909-4c38-9e7c-b412d9afdbf6")
+		(uuid "3f0705b7-e306-4724-933e-e3d49d7a027e")
 		(property "Reference" "J6"
-			(at 271.78 210.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x40"
 			(at 271.78 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16228,8 +16326,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 269.24 210.82 0)
+		(property "Value" "Conn_01x42"
+			(at 271.78 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:FPC-SMD_AFC07-S40FCC00"
+			(at 269.24 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16240,7 +16349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 210.82 0)
+			(at 269.24 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16250,8 +16359,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 269.24 210.82 0)
+		(property "Description" "\"Generic connector, single row, 01x42, script generated\""
+			(at 269.24 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16261,8 +16370,8 @@
 				)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 269.24 210.82 0)
+		(property "LCSC Part" "C11062"
+			(at 269.24 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16272,136 +16381,131 @@
 				)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 269.24 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "42"
+			(uuid "c078f0d8-6d85-485e-9023-b4bdcdfa4f30")
 		)
-		(pin "2"
-			(uuid "e4f465eb-e10a-426b-b8ba-217b0a6722fe")
-		)
-		(pin "3"
-			(uuid "68f58e79-19cd-44c2-bbab-24b585b13c7a")
-		)
-		(pin "7"
-			(uuid "f77a8a6a-bc9e-4a4b-956c-cabe611c6568")
-		)
-		(pin "22"
-			(uuid "9bfa0e77-44bc-4b50-96a6-83bf7650cf84")
-		)
-		(pin "23"
-			(uuid "445f003c-6f5d-4a0c-98a1-41d784c46a1e")
-		)
-		(pin "24"
-			(uuid "a9573f9d-04af-4c7c-aa6a-c2aa0e62211a")
-		)
-		(pin "38"
-			(uuid "1546aa37-f785-4709-a3b4-ea4d584e8613")
-		)
-		(pin "39"
-			(uuid "08437615-cfa1-4c3c-b29a-c61927a81bd6")
+		(pin "41"
+			(uuid "1d6353e6-948c-4747-a466-a6de9a793ed6")
 		)
 		(pin "40"
-			(uuid "84ce788b-b8c7-4c47-bfe8-8f9ef2bbcb4b")
+			(uuid "a49d41c8-7de3-4e72-8237-cd2cbca198e2")
 		)
-		(pin "4"
-			(uuid "573d75ed-725b-4599-81ab-baa616735a68")
+		(pin "39"
+			(uuid "14d913af-83f0-4c7d-ab44-f639590039ee")
 		)
-		(pin "6"
-			(uuid "35d36436-2a05-4076-ba74-59e25105b458")
-		)
-		(pin "18"
-			(uuid "e03917ec-9332-4389-bc56-ce6bf9cef0a8")
-		)
-		(pin "19"
-			(uuid "a90d7834-6025-4a1f-a72e-fad6471f49e6")
-		)
-		(pin "16"
-			(uuid "56968471-094f-4e93-bac1-9e4f3580f92d")
-		)
-		(pin "17"
-			(uuid "26e33f28-a8f6-426d-a53b-195eab8efa39")
-		)
-		(pin "13"
-			(uuid "0e7ccb31-d479-451b-b9bd-379dc8c49ca0")
-		)
-		(pin "5"
-			(uuid "082791cc-ab75-4be6-a640-b00bb8535cf6")
-		)
-		(pin "14"
-			(uuid "1fdaec41-4901-4ff5-87c9-4657b4c6ffe8")
-		)
-		(pin "15"
-			(uuid "a63e2562-69c0-43d8-b105-57b1553c115d")
-		)
-		(pin "30"
-			(uuid "20767981-bc81-4cfe-af00-63f36de39fda")
-		)
-		(pin "31"
-			(uuid "8179d7d2-cb7f-409e-8873-ee4cb980f8a5")
-		)
-		(pin "32"
-			(uuid "19edd3fd-4937-4fce-b6c1-784582bf44f5")
-		)
-		(pin "33"
-			(uuid "6cf7ce0a-dfc5-4fe8-94b5-fa6f399e7934")
-		)
-		(pin "34"
-			(uuid "a7b1175b-3829-446a-a572-e000ebefee38")
-		)
-		(pin "35"
-			(uuid "92d3d833-2273-4d99-90d7-bbceb8f9b732")
-		)
-		(pin "20"
-			(uuid "c6c98835-e425-48ff-9743-a86c363f8192")
-		)
-		(pin "25"
-			(uuid "ff55431d-f100-4f48-a018-b1dfd17048a5")
-		)
-		(pin "26"
-			(uuid "78d20cfa-3034-42d0-b902-805467987bf3")
-		)
-		(pin "8"
-			(uuid "421ad120-4516-4acc-89b5-f39ed239b9a7")
-		)
-		(pin "9"
-			(uuid "f04085eb-ad59-4d6e-a861-719b6e0ccf28")
-		)
-		(pin "36"
-			(uuid "bc43a478-3de5-4341-9ae8-f86cee25eb57")
+		(pin "38"
+			(uuid "d9cfe945-0689-4945-b5b0-5118ff2949b5")
 		)
 		(pin "37"
-			(uuid "e5f7d87d-3717-4cfd-b0ce-2f3fe7ae183e")
+			(uuid "02863528-861b-4987-84b8-bda26e0e3333")
 		)
-		(pin "10"
-			(uuid "5a18d7e9-6318-476e-a648-d2f0e40de2df")
+		(pin "3"
+			(uuid "b655c029-efe5-4322-bc15-f6ea4f67dd38")
 		)
-		(pin "11"
-			(uuid "a1b03821-3b13-477c-a72a-c3fa8a223f5c")
+		(pin "4"
+			(uuid "948ec19d-90bb-4028-a87f-1dc1ded0881c")
 		)
-		(pin "12"
-			(uuid "c1cd8ecb-724b-479f-99ce-0ddceb398ebc")
+		(pin "6"
+			(uuid "e7547ab6-b26b-4b08-bc2a-f0f1ee3c4973")
 		)
 		(pin "1"
-			(uuid "c7985bfc-6997-46af-9179-fca7bc18842b")
+			(uuid "ab9cda72-e2b3-487c-9fda-84ecb5322200")
+		)
+		(pin "5"
+			(uuid "9029ca4e-1468-4d63-ab6f-07dceb8d17ab")
+		)
+		(pin "2"
+			(uuid "fd50950d-3837-4cda-a682-1f4055e540d9")
+		)
+		(pin "7"
+			(uuid "751e7a24-ce93-4f77-83a3-c3bb89d8592a")
+		)
+		(pin "8"
+			(uuid "669754a0-0759-4922-adf6-a9d9334d8136")
+		)
+		(pin "19"
+			(uuid "f02c550a-e0cc-44ff-a934-e15de1d74bab")
 		)
 		(pin "27"
-			(uuid "5bd76047-0b5b-4952-a086-d30b2b646166")
+			(uuid "e6820f24-f178-426f-a4ca-36b390d6cda5")
 		)
-		(pin "28"
-			(uuid "4de630ad-0309-4524-91cd-974562959360")
+		(pin "24"
+			(uuid "5e5b4bf0-5a28-4b8b-b304-edd12b87b4f3")
 		)
-		(pin "29"
-			(uuid "2dc2962b-29fc-43a6-8b72-69c89779a7c2")
+		(pin "25"
+			(uuid "7bd3e755-5866-4a00-8818-0309c50ed715")
+		)
+		(pin "18"
+			(uuid "cc177158-4e77-43ed-a2af-06528888e9f9")
+		)
+		(pin "17"
+			(uuid "def23496-dc35-48ae-9177-3c9a57a0909f")
+		)
+		(pin "22"
+			(uuid "53476e37-0f67-46a1-b932-70a6f5b64452")
+		)
+		(pin "26"
+			(uuid "77236518-9308-4a15-8c28-c71c86ace93d")
+		)
+		(pin "20"
+			(uuid "549ab45a-5a68-42d0-9b79-f627bf575431")
+		)
+		(pin "23"
+			(uuid "05e47aeb-227a-4363-b8d2-95e59a9fe7de")
+		)
+		(pin "16"
+			(uuid "db79aa7b-c2ec-4dd1-bc5c-18c653cd5546")
 		)
 		(pin "21"
-			(uuid "dbca78f1-1041-46eb-b4b9-5767fb6185f4")
+			(uuid "a105ce94-2d8d-4c99-a639-4e9d0b998770")
+		)
+		(pin "28"
+			(uuid "ec9a36b1-dda2-48e1-a43f-42e6130cd957")
+		)
+		(pin "9"
+			(uuid "04c7cb09-e646-488d-b908-a26023a3ac75")
+		)
+		(pin "11"
+			(uuid "0698b897-1e13-4462-adeb-abd91afa5ccd")
+		)
+		(pin "10"
+			(uuid "33969490-f654-4344-adca-aa14f2e72421")
+		)
+		(pin "13"
+			(uuid "2b5bb24c-2aa4-4a0f-93ce-63fcf0ac237d")
+		)
+		(pin "12"
+			(uuid "7c85f972-c838-48d3-8c2b-1a02a0d719cf")
+		)
+		(pin "14"
+			(uuid "02102d3e-077b-4782-b9b7-dd8a448415f4")
+		)
+		(pin "15"
+			(uuid "ccb71f96-4f8a-4e92-ace6-a79fcc4c67d1")
+		)
+		(pin "36"
+			(uuid "0d915e9e-d2ad-48ce-8bd2-87a3a7f8c468")
+		)
+		(pin "35"
+			(uuid "9559e955-2771-481b-8227-4ccd9865a391")
+		)
+		(pin "34"
+			(uuid "e2ae8c75-2133-44a3-87bf-e44c7d03ee0b")
+		)
+		(pin "33"
+			(uuid "17c1ba46-ee29-4564-83ec-932f72743846")
+		)
+		(pin "32"
+			(uuid "ca8a71a8-ce94-4f7c-84e6-82616c4c19d2")
+		)
+		(pin "31"
+			(uuid "0043a8e1-5d7f-449f-9e45-c1878d6a419c")
+		)
+		(pin "30"
+			(uuid "d03ec83a-841f-490c-a0cb-9678c0b3928b")
+		)
+		(pin "29"
+			(uuid "c0f38494-b35c-433a-908e-da2f4a59a55c")
 		)
 		(instances
 			(project "mp3player"
@@ -17427,6 +17531,85 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 266.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f47230d-5074-4001-832f-153a9ee9be3d")
+		(property "Reference" "#PWR0129"
+			(at 256.54 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 266.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9eb0d16-234c-4db0-936d-df89024feb5a")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -18465,7 +18648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0420"
 			(at 441.96 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -18510,6 +18693,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 441.96 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22463809"
 			(at 441.96 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -18569,7 +18763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T"
 			(at 46.99 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -18614,6 +18808,28 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 46.99 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 46.99 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42411119"
 			(at 46.99 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -19055,7 +19271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 327.66 181.3052 0)
 			(hide yes)
 			(show_name no)
@@ -19100,6 +19316,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 331.47 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 331.47 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -19854,7 +20081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 350.52 183.1848 0)
 			(hide yes)
 			(show_name no)
@@ -19899,6 +20126,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 346.71 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 346.71 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -19958,7 +20196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 420.0652 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20003,6 +20241,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 419.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19666"
 			(at 419.1 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21536,6 +21785,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 262.89 264.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7024bd-fd19-475f-9b1b-ef7305c1b35a")
+		(property "Reference" "#PWR0128"
+			(at 256.54 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 264.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed2676da-927e-4a02-87a6-3b08a07c2a1e")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 260.35 175.26 270)
 		(unit 1)
 		(body_style 1)
@@ -21790,7 +22118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 319.7352 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21835,6 +22163,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 318.77 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C12530"
 			(at 318.77 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -21939,6 +22278,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 335.28 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "//"
 			(at 335.28 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -22215,7 +22565,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22240,7 +22590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 27.94 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -22285,6 +22635,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 27.94 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "//"
 			(at 27.94 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -22749,7 +23110,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "MBR0540T1G"
 			(at 461.01 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22759,7 +23120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 461.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22826,6 +23187,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 461.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C21353"
 			(at 461.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -24023,7 +24395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 426.4152 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -24068,6 +24440,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 425.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C16772"
 			(at 425.45 53.34 0)
 			(hide yes)
 			(show_name no)

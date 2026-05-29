@@ -55,7 +55,7 @@ I finished the day by wiring that new module :p\
 <img src="assets/14-05-26_03.png" alt="" width="400"/>
 \
 \
-**Total time spent: 4 hours**
+**Total time spent: 9 hours**
 
 ## 15th May 2026
 
@@ -87,7 +87,7 @@ wip schematic:\
 <img src="assets/15-05-26_01.png" alt="" width="400"/>
 \
 \
-**Total time spent: 2 hours**
+**Total time spent: 11 hours**
 
 ## 16th May 2026
 
@@ -107,7 +107,7 @@ _schematic for the power button_\
 & random fixes here and there\
 i need to sleep noww\
 \
-**Total time spent: 4 hours**
+**Total time spent: 15 hours**
 
 ## 23rd May 2026
 
@@ -144,7 +144,7 @@ _screennn_
 \
 _bonus plane picture_
 
-**Total time spent: 6 hours**
+**Total time spent: 21 hours**
 
 ## 28th May 2026
 
@@ -155,4 +155,25 @@ I also cleaned up the schematic everywhere & added some missing stuff.\
 \
 _component assignment_
 
-**Total time spent: 4 hours**
+**Total time spent: 25 hours**
+
+## 29th May 2026
+
+Today I fixed footprint issues & finished component assignment!\
+Every component now has a footprint & a lcsc part number!!! \
+\
+<img src="assets/29-05-26_01.png" alt="" width="400"/>
+\
+_new jack wiring_
+\
+\
+<img src="assets/29-05-26_02.png" alt="" width="400"/>
+\
+_component assignment done!_
+\
+\
+<img src="assets/29-05-26_03.png" alt="" width="400"/>
+\
+_ready for routing!_
+\
+**Total time spent: 30 hours**

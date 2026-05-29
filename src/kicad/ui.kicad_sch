@@ -1737,7 +1737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.00-LS6.8"
 			(at 76.2 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -1782,6 +1782,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 71.12 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115354"
 			(at 71.12 43.815 90)
 			(hide yes)
 			(show_name no)
@@ -2646,7 +2657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.00-LS6.8"
 			(at 59.055 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -2691,6 +2702,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 53.975 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115354"
 			(at 53.975 43.815 90)
 			(hide yes)
 			(show_name no)
@@ -2750,7 +2772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.00-LS6.8"
 			(at 16.51 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -2795,6 +2817,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 21.59 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115354"
 			(at 21.59 43.815 90)
 			(hide yes)
 			(show_name no)
@@ -3123,7 +3156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.00-LS6.8"
 			(at 92.71 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -3168,6 +3201,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 87.63 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115354"
 			(at 87.63 43.815 90)
 			(hide yes)
 			(show_name no)
@@ -3227,7 +3271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.00-LS6.8"
 			(at 41.275 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -3272,6 +3316,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 36.195 43.815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C115354"
 			(at 36.195 43.815 90)
 			(hide yes)
 			(show_name no)
