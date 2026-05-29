@@ -1407,6 +1407,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 25.4 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e064106b-ca91-4b95-8b20-102a79e321d0")
 		)
@@ -1883,6 +1894,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 91.44 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9db111a8-dc15-452b-9c50-d2ef905a77b3")
 		)
@@ -1987,6 +2009,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 42.545 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b38d5c48-32ec-4850-8fd5-0a8e1b9e3cb7")
 		)
@@ -2079,6 +2112,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 57.785 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
 			(at 57.785 36.195 90)
 			(hide yes)
 			(show_name no)
@@ -2349,6 +2393,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 40.005 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "61c0d6a0-1646-47e3-8e00-b08ee3a1223e")
 		)
@@ -2521,6 +2576,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 42.545 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
 			(at 42.545 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2987,6 +3053,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 74.93 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
 			(at 74.93 36.195 90)
 			(hide yes)
 			(show_name no)

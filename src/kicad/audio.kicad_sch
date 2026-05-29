@@ -5229,6 +5229,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 180.34 57.785 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c78e77d7-a1d9-4306-864f-4f0560588a86")
 		)
@@ -6471,6 +6482,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 26.67 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e76a9ddf-f0d4-455a-9ea2-703387b49d31")
 		)
@@ -6984,6 +7006,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 39.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
 			(at 39.37 129.54 0)
 			(hide yes)
 			(show_name no)
