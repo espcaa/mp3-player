@@ -177,3 +177,31 @@ _component assignment done!_
 _ready for routing!_
 \
 **Total time spent: 30 hours**
+
+## 30th May 2026
+
+Today I started routing my pcb! Well actually the first thing I needed to do before that was to find the exact form factor I was going for.\
+Paper is very useful for that!\
+\
+<img src="assets/30-05-26_01.jpg" alt="" width="400"/>
+\
+_paper prototype :p_
+\
+After that, (and a bunch of iterations, and headaches over where to place the different connectors & ports) I ended up with this:\
+\
+<img src="assets/30-05-26_02.png" alt="" width="400"/>
+\
+_device outline_
+\
+\
+I then started routing! I first did the analog audio part (no idea why) and then moved on to the power supply.
+\
+<img src="assets/30-05-26_03.png" alt="" width="400"/>
+\
+_routing..._  
+\
+
+I also fixed some schematic issues that I found while routing (wrong caps & inverted buses, other random things i forgot)\
+\
+
+**Total time spent: 35 hours**

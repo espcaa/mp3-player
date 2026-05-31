@@ -3667,6 +3667,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 33.02 74.93 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3674,7 +3675,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2ff1f0c-36fb-4493-842d-490a94c378e8")
 		(property "Reference" "SW10"
 			(at 33.02 67.31 0)

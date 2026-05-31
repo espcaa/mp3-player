@@ -5059,7 +5059,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "017aefa6-8df0-4ee3-8a70-aa0925f901b4")
 		(property "Reference" "#PWR049"
 			(at 57.15 133.35 0)

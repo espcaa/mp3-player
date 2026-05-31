@@ -25,16 +25,6 @@
 		)
 		(uuid "1e0cfcdd-7657-4136-81cd-6c8832880742")
 	)
-	(bus
-		(pts
-			(xy 122.555 51.435) (xy 102.87 51.435)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "313bc0be-eeb8-4548-8d20-042f182cf196")
-	)
 	(wire
 		(pts
 			(xy 36.195 56.515) (xy 36.195 88.9)
@@ -64,6 +54,16 @@
 			(type default)
 		)
 		(uuid "5f2a6bba-1c1e-4ad4-9f11-9ca426aa99f2")
+	)
+	(bus
+		(pts
+			(xy 102.87 53.975) (xy 120.015 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698c19ab-1bd5-4fc1-83b4-5099ddce723b")
 	)
 	(wire
 		(pts
@@ -167,7 +167,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 53.975) (xy 120.015 53.975)
+			(xy 102.87 51.435) (xy 122.555 51.435)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +580,7 @@
 			)
 		)
 		(pin "DPAD{UP DOWN LEFT RIGHT CENTER}" input
-			(at 102.87 53.975 0)
+			(at 102.87 51.435 0)
 			(uuid "f2bd71b4-81fc-4b02-9a32-9cec676d600b")
 			(effects
 				(font
@@ -590,7 +590,7 @@
 			)
 		)
 		(pin "VOLUME{UP DOWN}" input
-			(at 102.87 51.435 0)
+			(at 102.87 53.975 0)
 			(uuid "80438f6d-bfc0-4e96-8184-b4dd6c1da7f5")
 			(effects
 				(font

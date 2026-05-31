@@ -3134,12 +3134,12 @@
 		(uuid "c3d6c8da-20d7-41a0-b922-ea2e8077ff2a")
 	)
 	(label "SW_T"
-		(at 38.1 172.085 180)
+		(at 38.1 172.085 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d31bda04-ada4-4b9a-9ae4-29322da2f33a")
 	)
@@ -8135,7 +8135,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf"
+		(property "Value" "4.7uf"
 			(at 176.53 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,7 +8145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.34 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -8200,7 +8200,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC Part" "C19666"
 			(at 176.53 30.48 90)
 			(hide yes)
 			(show_name no)
