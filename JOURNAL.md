@@ -209,8 +209,9 @@ I also fixed some schematic issues that I found while routing (wrong caps & inve
 
 I basically spent my day routing!\
 A lot of the components moved around the board while I was trying to find the best arrangement for everything :sob:, but i think this is good enough?\
-
+\
 <img src="assets/31-05-26_01.png" alt="" width="400"/>
+\
 _routing..._
-
+\
 **Total time spent: 40 hours**
