@@ -7611,6 +7611,12 @@
 		(uuid "5b10f221-2e72-41f7-a4c2-789a26bc1c8a")
 	)
 	(junction
+		(at 71.12 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c295c60-9388-4fcf-929b-0ee76a9bfec2")
+	)
+	(junction
 		(at 434.34 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7651,12 +7657,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70b5e900-a6ca-4cd4-b46e-c12d3ad10e62")
-	)
-	(junction
-		(at 71.12 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71761bf8-e57b-4d03-bfe6-3d97a0eaec71")
 	)
 	(junction
 		(at 474.345 206.375)
@@ -7843,6 +7843,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9c1663f-ee86-4b6e-93ed-d20fb230b566")
+	)
+	(junction
+		(at 71.12 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df04374a-dad6-46ef-823b-ef93d210fcec")
+	)
+	(junction
+		(at 85.725 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ca712c-1f5a-484c-8df6-db9382c3499f")
 	)
 	(junction
 		(at 58.42 55.88)
@@ -8627,7 +8639,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 82.55 63.5)
+			(xy 108.585 53.34) (xy 108.585 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8927,6 +8939,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.725 63.5) (xy 108.585 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c79094-a981-401c-97ea-5be09c3ea454")
+	)
+	(wire
+		(pts
 			(xy 455.93 234.95) (xy 455.93 232.41)
 		)
 		(stroke
@@ -9087,7 +9109,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 53.34) (xy 82.55 53.34)
+			(xy 45.72 53.34) (xy 108.585 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9344,16 +9366,6 @@
 			(type default)
 		)
 		(uuid "38c4e91c-f9d7-4387-9cf8-bfa16e9dbb53")
-	)
-	(wire
-		(pts
-			(xy 82.55 63.5) (xy 71.12 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0bec16-c3aa-45a9-95a0-41be73ff7b52")
 	)
 	(wire
 		(pts
@@ -9754,6 +9766,16 @@
 			(type default)
 		)
 		(uuid "637c953f-0435-4f0c-932e-3318cd5b18fb")
+	)
+	(wire
+		(pts
+			(xy 85.725 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a57749-6b68-40f2-a26e-c77f3700482c")
 	)
 	(wire
 		(pts
@@ -10474,6 +10496,16 @@
 			(type default)
 		)
 		(uuid "8abd4b54-28df-4b49-9919-15d6a22f5281")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.88) (xy 85.725 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae72da3-1bef-41e1-a9f3-3a6d1e5c2692")
 	)
 	(wire
 		(pts
@@ -12196,12 +12228,12 @@
 		(uuid "0d612e4d-bdec-4fce-b196-7128c3726215")
 	)
 	(label "VREG_LX"
-		(at 68.58 262.89 0)
+		(at 68.58 262.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0e8eea27-01a5-4f14-92c7-d9e4acd08420")
 	)
@@ -18312,6 +18344,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 85.725 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de893b8-3d53-4073-964c-fa8382575e91")
+		(property "Reference" "C47"
+			(at 89.535 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 89.535 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.6902 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.725 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.725 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 85.725 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 85.725 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 85.725 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbbb2d1b-92df-4bd5-bcb6-7582180b8692")
+		)
+		(pin "1"
+			(uuid "79e35de7-6178-44f2-9323-70ca368e505e")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 421.64 226.06 90)
 		(unit 1)
@@ -22206,9 +22353,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3985ddb-cd65-4d6b-8e95-6314c8e094a5")
 		(property "Reference" "U2"
@@ -22565,7 +22712,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
