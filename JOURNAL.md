@@ -187,6 +187,7 @@ Paper is very useful for that!\
 \
 _paper prototype :p_
 \
+\
 After that, (and a bunch of iterations, and headaches over where to place the different connectors & ports) I ended up with this:\
 \
 <img src="assets/30-05-26_02.png" alt="" width="400"/>
@@ -200,8 +201,7 @@ I then started routing! I first did the analog audio part (no idea why) and then
 \
 _routing..._  
 \
-
-I also fixed some schematic issues that I found while routing (wrong caps & inverted buses, other random things i forgot)\
 \
+I also fixed some schematic issues that I found while routing (wrong caps & inverted buses, other random things i forgot)\
 
 **Total time spent: 35 hours**
