@@ -214,4 +214,17 @@ A lot of the components moved around the board while I was trying to find the be
 \
 _routing..._
 \
+\
 **Total time spent: 40 hours**
+
+## 1st June 2026
+
+June already...\
+Today I continued routing the board! Did a lot of the annoying stuff (screen, sd card, spi..., dpad layout) & it's almost finished!!!\
+\
+<img src="assets/01-06-26_01.png" alt="" width="400"/>
+\
+_routing..._
+\
+\
+**Total time spent: 43 hours**

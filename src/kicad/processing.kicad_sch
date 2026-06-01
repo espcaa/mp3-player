@@ -7749,18 +7749,6 @@
 		(uuid "ab87bb30-2802-452f-b272-acd75d469d24")
 	)
 	(junction
-		(at 119.38 265.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aeedfcc0-da89-44b3-bef9-c7a262ac3a07")
-	)
-	(junction
-		(at 55.88 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b246311a-8cb0-4b05-aef6-66e81f80af51")
-	)
-	(junction
 		(at 289.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10379,6 +10367,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 102.235) (xy 210.82 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816dc8b6-180c-455c-8b66-ce0f90315f89")
+	)
+	(wire
+		(pts
 			(xy 110.49 160.02) (xy 113.03 160.02)
 		)
 		(stroke
@@ -10436,16 +10434,6 @@
 			(type default)
 		)
 		(uuid "86a6af1f-7881-46d4-a424-3f61d1e044ee")
-	)
-	(wire
-		(pts
-			(xy 124.46 265.43) (xy 119.38 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877dc68b-182f-45e7-ace5-4fef0beab536")
 	)
 	(wire
 		(pts
@@ -10929,6 +10917,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbb222d-d176-46a9-933d-2f662a1067b0")
+	)
+	(wire
+		(pts
 			(xy 41.91 240.03) (xy 58.42 240.03)
 		)
 		(stroke
@@ -10986,6 +10984,16 @@
 			(type default)
 		)
 		(uuid "b28adb1e-ea94-4f9e-8f12-cfe92008f81a")
+	)
+	(wire
+		(pts
+			(xy 210.82 102.235) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f626d2-ab80-46a3-93d9-2fa36a98c518")
 	)
 	(bus
 		(pts
@@ -11166,16 +11174,6 @@
 			(type default)
 		)
 		(uuid "bd30327b-73a7-4e7d-ade1-9e031d5a0c17")
-	)
-	(wire
-		(pts
-			(xy 55.88 207.01) (xy 63.5 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3b455d-8e63-4c5b-8bb8-597cd7023d55")
 	)
 	(wire
 		(pts
@@ -13166,6 +13164,16 @@
 			(justify left bottom)
 		)
 		(uuid "b287bf6f-4f68-40ef-b492-656f1eec1aa3")
+	)
+	(label "DISPLAY_RESET"
+		(at 213.36 102.235 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3280f1a-3116-4e17-b0ef-26f2325c5736")
 	)
 	(label "GPIO28"
 		(at 430.53 194.31 90)
@@ -15342,85 +15350,6 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 207.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a57e5ee-1cf2-4895-a8f9-55147d846cb3")
-		(property "Reference" "#PWR015"
-			(at 77.47 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 207.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7479baa5-dd28-420e-bfa2-d1f86cb78182")
-		)
-		(instances
-			(project "mp3player"
-				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18566,198 +18495,6 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 265.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ebaee5-1dbf-4fbc-96bf-b4855a3f66d3")
-		(property "Reference" "#PWR017"
-			(at 138.43 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 265.4299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8693941-c312-4dc7-9a61-c3f3bded6f13")
-		)
-		(instances
-			(project "mp3player"
-				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 67.31 207.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ebe531-c6fc-4ce6-9004-85fc9195c47a")
-		(property "Reference" "C17"
-			(at 67.31 199.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nf"
-			(at 67.31 201.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 71.12 206.0448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 67.31 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 67.31 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 67.31 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 67.31 207.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8a1d5071-49cc-4b42-b35a-d186b7f9b143")
-		)
-		(pin "1"
-			(uuid "384850bd-37b4-4e89-816d-5493905c8ea8")
-		)
-		(instances
-			(project "mp3player"
-				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -24846,119 +24583,6 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 265.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7924e63-f413-4004-b385-58ebd8233ffb")
-		(property "Reference" "C18"
-			(at 128.27 257.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nf"
-			(at 128.27 260.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 132.08 264.4648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 128.27 265.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 128.27 265.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 128.27 265.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "71487a4c-53f6-454b-a126-7e38cd25b582")
-		)
-		(pin "1"
-			(uuid "a76b074a-efd6-45b6-ab01-a15f5ee497f2")
-		)
-		(instances
-			(project "mp3player"
-				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
-					(reference "C18")
 					(unit 1)
 				)
 			)
