@@ -146,7 +146,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -233,8 +233,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.2
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -525,6 +525,25 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "I2S_Bus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.2
+      },
+      {
+        "clearance": 0.2,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -532,7 +551,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "I2S_Bus",
+        "pattern": "/audio/I2S.*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/power/USB_D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -788,7 +816,7 @@
         "uuid": "730d0887-0a09-4397-bcb4-2959d410b5ba"
       }
     ],
-    "used_designators": "U2,C47,C58",
+    "used_designators": "#PWR15,#PWR22,J3,U2,R32-33,R38,R48-49,C47,C58",
     "variants": []
   },
   "sheets": [

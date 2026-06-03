@@ -228,3 +228,26 @@ _routing..._
 \
 \
 **Total time spent: 43 hours**
+
+## 3nd June 2026
+
+Routing is finished! It took a lot of time because i actually moved a lot of traces around to try to keep the planes cleaner, remove useless vias where I could & add the debug header. I'm quite proud of how it turned out!\
+\
+<img src="assets/03-06-26_01.png" alt="" width="400"/>
+\
+_final routing_
+\
+\
+I also tried to get a quote at jlcpcb and uh i might be cooked.
+\
+<img src="assets/03-06-26_02.png" alt="" width="400"/>
+\
+_jlcpcb quote..._
+\
+\
+I'm thinking of maybe getting a hotplate + stencil & soldering it myself.\
+That'd be pretty cool + would sove the 69$ of extended component fee... I just need to trust myself not to mess it up & find a cheap hotplate pf...\
+Now time for the case & firmware!\
+Oh also, jlcpcb wants to charge me 40$ more to get a white pcb :sob:. Since my whole vision for the design was based on a white pcb + transparent case, I might just go with that & pay but I'm not sure\
+\
+**Total time spent: 49 hours**
