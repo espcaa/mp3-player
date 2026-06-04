@@ -238,7 +238,7 @@ Routing is finished! It took a lot of time because i actually moved a lot of tra
 _final routing_
 \
 \
-I also tried to get a quote at jlcpcb and uh i might be cooked.
+I also tried to get a quote at jlcpcb and uh i might be cooked.\
 \
 <img src="assets/03-06-26_02.png" alt="" width="400"/>
 \
@@ -251,3 +251,27 @@ Now time for the case & firmware!\
 Oh also, jlcpcb wants to charge me 40$ more to get a white pcb :sob:. Since my whole vision for the design was based on a white pcb + transparent case, I might just go with that & pay but I'm not sure\
 \
 **Total time spent: 49 hours**
+
+# 4th June 2026
+
+Today I went on a polishing spree!\
+\
+
+- rounded the corners of the pcb
+- made the fpc slot a bit larger so the connector doesn't break
+- fixed footprints where mounting holes were tht holes instead of npt
+- removed duplicated vias
+- removed broken traces
+- broken footprint with way too much solder mask
+- connecting something to gnd (oops i forgot)
+
+\
+\
+ <img src="assets/04-06-26_01.png" alt="" width="400"/>
+\
+_0 errors omg_
+\
+\
+Now I need to actually lockin on the case :sob:\
+\
+**Total time spent: 51 hours**

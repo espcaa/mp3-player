@@ -10525,6 +10525,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 170.18) (xy 113.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855cc6c0-050f-4a75-ac20-ff5689de441c")
+	)
+	(wire
+		(pts
 			(xy 262.89 266.7) (xy 264.16 266.7)
 		)
 		(stroke
@@ -13702,6 +13712,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea397cec-4254-43c7-b0a7-862f17d5edff")
+	)
+	(label "EXPANDER_INT"
+		(at 102.87 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebc75d7c-4d2a-4e25-9c1c-e02283298c15")
 	)
 	(label "SPI.SDA"
 		(at 256.54 241.3 0)
