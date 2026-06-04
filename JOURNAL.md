@@ -255,7 +255,6 @@ Oh also, jlcpcb wants to charge me 40$ more to get a white pcb :sob:. Since my w
 # 4th June 2026
 
 Today I went on a polishing spree!\
-\
 
 - rounded the corners of the pcb
 - made the fpc slot a bit larger so the connector doesn't break
@@ -265,7 +264,6 @@ Today I went on a polishing spree!\
 - broken footprint with way too much solder mask
 - connecting something to gnd (oops i forgot)
 
-\
 \
  <img src="assets/04-06-26_01.png" alt="" width="400"/>
 \
