@@ -9725,6 +9725,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 210.82) (xy 374.65 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57dd5b5b-fdbb-4aa5-8594-eb158109cb5f")
+	)
+	(wire
+		(pts
 			(xy 284.48 67.31) (xy 289.56 67.31)
 		)
 		(stroke
@@ -10025,7 +10035,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 210.82) (xy 367.03 210.82)
+			(xy 356.87 210.82) (xy 365.76 210.82)
 		)
 		(stroke
 			(width 0)
@@ -10735,7 +10745,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 213.36) (xy 367.03 213.36)
+			(xy 356.87 213.36) (xy 375.285 213.36)
 		)
 		(stroke
 			(width 0)
@@ -11172,6 +11182,16 @@
 			(type default)
 		)
 		(uuid "b6f4a843-f7c9-4e60-8825-91776ae683a3")
+	)
+	(wire
+		(pts
+			(xy 358.14 208.28) (xy 356.87 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7085635-4893-44d8-82a2-3f2374852700")
 	)
 	(wire
 		(pts
@@ -12025,7 +12045,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 208.28) (xy 356.87 208.28)
+			(xy 374.65 208.28) (xy 365.76 208.28)
 		)
 		(stroke
 			(width 0)
@@ -12304,7 +12324,7 @@
 		(uuid "ffe6b260-5cc2-4481-996f-e5f04f68d91a")
 	)
 	(label "BLE_UART_TXD"
-		(at 367.03 208.28 0)
+		(at 374.65 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13204,7 +13224,7 @@
 		(uuid "9f9e4c5b-3c6d-4091-8ffc-2d8d3d538cd3")
 	)
 	(label "BLE_UART_CTS"
-		(at 367.03 213.36 0)
+		(at 375.285 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13474,7 +13494,7 @@
 		(uuid "c69ef704-7daa-4214-aa79-57b466770763")
 	)
 	(label "BLE_UART_RXD"
-		(at 367.03 210.82 0)
+		(at 374.65 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15208,6 +15228,96 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 361.95 208.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26793756-67bc-46d6-ad98-1554225105a3")
+		(property "Reference" "R49"
+			(at 361.95 202.565 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 361.95 205.105 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 361.95 210.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 361.95 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25105"
+			(at 361.95 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4a77517-6926-43ec-be43-1c6635aa11b0")
+		)
+		(pin "1"
+			(uuid "0dc2e57f-e7ca-4d58-99ae-68b140caf2e9")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -19992,6 +20102,96 @@
 			(project "mp3player"
 				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 369.57 210.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e802c98-05f4-4821-a485-1587642e4487")
+		(property "Reference" "R50"
+			(at 369.57 205.105 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 369.57 207.645 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 369.57 212.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 369.57 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25105"
+			(at 369.57 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05ae8f09-167c-4628-80b7-81127211c8ba")
+		)
+		(pin "1"
+			(uuid "fa6886b6-1998-48b8-afde-8b08b1242e3b")
+		)
+		(instances
+			(project "mp3player"
+				(path "/730d0887-0a09-4397-bcb4-2959d410b5ba/e503cbcc-34c8-46b6-97a8-cd1a740433c3"
+					(reference "R50")
 					(unit 1)
 				)
 			)

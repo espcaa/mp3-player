@@ -264,7 +264,7 @@ Today I went on a polishing spree!
 - broken footprint with way too much solder mask
 - connecting something to gnd (oops i forgot)
 
- <img src="assets/04-06-26_01.png" alt="" width="400"/>
+<img src="assets/04-06-26_01.png" alt="" width="400"/>
 \
 _0 errors omg_
 \
@@ -272,3 +272,19 @@ _0 errors omg_
 Now I need to actually lockin on the case :sob:\
 \
 **Total time spent: 51 hours**
+
+# 12th June
+
+I'm back \o/\
+Today I:
+
+- added resistors on uart lines for the bluetooth module according to the datasheet
+- redesigned the whole bluetooth module part to add antenna clearance because i forgot about it :sob:
+
+aaa\
+<img src="assets/12-06-26_01.png" alt="" width="400"/>
+\
+_redesign_
+\
+
+**Total time spent: 54 hours**
