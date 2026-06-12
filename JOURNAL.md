@@ -265,12 +265,12 @@ Today I went on a polishing spree!
 - connecting something to gnd (oops i forgot)
 
 <img src="assets/04-06-26_01.png" alt="" width="400"/>
+
 \
 _0 errors omg_
 \
 \
-Now I need to actually lockin on the case :sob:\
-\
+Now I need to actually lockin on the case :sob:
 **Total time spent: 51 hours**
 
 # 12th June
