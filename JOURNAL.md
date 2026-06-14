@@ -266,7 +266,6 @@ Today I went on a polishing spree!
 
 <img src="assets/04-06-26_01.png" alt="" width="400"/>
 
-\
 _0 errors omg_
 \
 \
@@ -281,10 +280,26 @@ Today I:
 - added resistors on uart lines for the bluetooth module according to the datasheet
 - redesigned the whole bluetooth module part to add antenna clearance because i forgot about it :sob:
 
-aaa\
 <img src="assets/12-06-26_01.png" alt="" width="400"/>
 \
 _redesign_
-\
 
 **Total time spent: 54 hours**
+
+# 14th June
+
+Today I focused on making a case for it!\
+I made a lot of research on how i could join parts & battled with onshape to get my pcb & other components in my file.\
+I also decided to go with simple petg instead of resin because I need this quickly/cheaply and I don't have a resin printer.\
+Battery form factor changed to 505050 because else it's going to be very thick :sob:\
+\
+<img src="assets/14-06-26_01.png" alt="" width="400"/>
+\
+_new mounting holes_
+\
+\
+<img src="assets/14-06-26_02.png" alt="" width="400"/>
+\
+_onshaep thingies_
+\
+**Total time spent: 57 hours**
