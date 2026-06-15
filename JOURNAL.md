@@ -303,3 +303,29 @@ _new mounting holes_
 _onshaep thingies_
 \
 **Total time spent: 57 hours**
+
+# 15th June
+
+Turns out sleeping a normal amount of time makes you more productive!\
+Today I really locked in & finished the case design!\
+It's not perfect yet, but I think I'm 90% done with it!\
+I had to move stuff around on my pcb & reroute some traces to make it fit better in the case (dpad moved up, horizontal buttons moved sideways, ...).\
+(my pcb left side wasn't straight for some reason??? :sob:)\
+\
+<img src="assets/15-06-26_01.png" alt="" width="400"/>
+\
+_case design_
+\
+<img src="assets/15-06-26_02.png" alt="" width="400"/>
+\
+_case design_
+\
+<img src="assets/15-06-26_03.png" alt="" width="400"/>
+\
+_pcb update_
+\
+\
+I'm very bad at CAD so this took forever, but I'm really happy with how it turned out!\
+I'm thinking of printing different parts in different colors to make it look cooler :p. I could also bring different cases to opensauce & disassemble it to show the insides.
+
+**Total time spent: 62 hours**
