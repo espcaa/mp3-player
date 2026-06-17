@@ -329,3 +329,42 @@ I'm very bad at CAD so this took forever, but I'm really happy with how it turne
 I'm thinking of printing different parts in different colors to make it look cooler :p. I could also bring different cases to opensauce & disassemble it to show the insides.
 
 **Total time spent: 62 hours**
+
+# 17th June
+
+This is going to be a long journal entry & a long commit cause I did a lot today & forgot to journal yesterday :pensive:\
+I started the firmware!\
+I first started by setting up the project structure & designing a hal so that I can run the ui on my computer to test it!\
+\
+<img src="assets/17-06-26_01.png" alt="" width="400"/>
+\
+_first time the ui ran on my computer!_
+\
+\
+I then started working on the ui itself!\
+Did some figma design with a friend but didn't really end up using it\
+\
+<img src="assets/17-06-26_02.png" alt="" width="400"/>
+\
+_ui design_
+\
+\
+I then started implementing some basic ui system (text, images, buttons, widget system...)!\
+\
+<img src="assets/17-06-26_03.png" alt="" width="400"/>
+\
+_totally what I wanted to write trust_
+\
+\
+After a lot of trial & error, I got something to work with the virtual sdcard!\
+\
+<img src="assets/17-06-26_04.png" alt="" width="400"/>
+<img src="assets/17-06-26_05.png" alt="" width="400"/>
+\
+_basic music player!!!_
+\
+\
+I also made a bunch of tooling for fonts, upload to the sdcard & running the emulator.\
+No working music or settings or anything yet but this is definitely going somewhere!!!
+
+**Total time spent: 70 hours**

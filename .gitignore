@@ -7,3 +7,13 @@ fp-info-cache
 *.lck
 mp3player-backups
 .DS_Store
+src/firmware/build
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+.DS_Store
+.cache
+src/firmware/build_emulator
+.crush
+src/firmware/sdcard

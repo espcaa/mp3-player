@@ -1,0 +1,28 @@
+CompileFlags:
+  CompilationDatabase: "build_emulator"
+
+Diagnostics:
+  Suppress:
+    - drv_unknown_argument
+
+---
+If:
+  PathMatch: src/hal_pico/.*
+
+CompileFlags:
+  CompilationDatabase: "build"
+  Add:
+    - --target=arm-none-eabi
+    - -isystem/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include
+    - -isystem/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include-fixed
+    - -isystem/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include
+  Remove:
+    - -mcpu*
+    - -mfpu*
+    - -mfloat-abi*
+    - -mlibarch*
+
+Diagnostics:
+  Suppress:
+    - drv_unknown_argument
+    - pp_file_not_found_angled_include_not_fatal

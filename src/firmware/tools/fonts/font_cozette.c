@@ -1,0 +1,491 @@
+#include <stdint.h>
+#include "../app/gfx.h"
+
+// Font generated from cozette.bdf
+
+// --- cozette Character Data ---
+const uint8_t cozette_char_32[] = {
+    0x00
+};
+
+const uint8_t cozette_char_33[] = {
+    0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x00, 0x80
+};
+
+const uint8_t cozette_char_34[] = {
+    0xA0, 0xA0, 0xA0
+};
+
+const uint8_t cozette_char_35[] = {
+    0x50, 0x50, 0xF8, 0x50, 0x50, 0xF8, 0x50, 0x50
+};
+
+const uint8_t cozette_char_36[] = {
+    0x20, 0x70, 0xA8, 0xA0, 0x70, 0x28, 0x28, 0xA8, 0x70, 0x20
+};
+
+const uint8_t cozette_char_37[] = {
+    0x40, 0xA0, 0x48, 0x10, 0x20, 0x40, 0x90, 0x28, 0x10
+};
+
+const uint8_t cozette_char_38[] = {
+    0x20, 0x50, 0x50, 0x20, 0x68, 0x90, 0x90, 0x90, 0x68
+};
+
+const uint8_t cozette_char_39[] = {
+    0x80, 0x80, 0x80
+};
+
+const uint8_t cozette_char_40[] = {
+    0x20, 0x40, 0x40, 0x80, 0x80, 0x80, 0x80, 0x80, 0x40, 0x40, 0x20
+};
+
+const uint8_t cozette_char_41[] = {
+    0x80, 0x40, 0x40, 0x20, 0x20, 0x20, 0x20, 0x20, 0x40, 0x40, 0x80
+};
+
+const uint8_t cozette_char_42[] = {
+    0x50, 0x20, 0xF8, 0x20, 0x50
+};
+
+const uint8_t cozette_char_43[] = {
+    0x20, 0x20, 0xF8, 0x20, 0x20
+};
+
+const uint8_t cozette_char_44[] = {
+    0xC0, 0xC0, 0x40, 0x80
+};
+
+const uint8_t cozette_char_45[] = {
+    0xF8
+};
+
+const uint8_t cozette_char_46[] = {
+    0xC0, 0xC0
+};
+
+const uint8_t cozette_char_47[] = {
+    0x08, 0x08, 0x10, 0x10, 0x20, 0x20, 0x40, 0x40, 0x80, 0x80
+};
+
+const uint8_t cozette_char_48[] = {
+    0x70, 0x88, 0x88, 0xA8, 0xA8, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_49[] = {
+    0x20, 0x60, 0xA0, 0x20, 0x20, 0x20, 0x20, 0xF8
+};
+
+const uint8_t cozette_char_50[] = {
+    0x70, 0x88, 0x08, 0x10, 0x20, 0x40, 0x80, 0xF8
+};
+
+const uint8_t cozette_char_51[] = {
+    0x70, 0x88, 0x08, 0x30, 0x08, 0x08, 0x88, 0x70
+};
+
+const uint8_t cozette_char_52[] = {
+    0x08, 0x18, 0x28, 0x48, 0x88, 0xFC, 0x08, 0x08
+};
+
+const uint8_t cozette_char_53[] = {
+    0xF8, 0x80, 0x80, 0xF0, 0x08, 0x08, 0x88, 0x70
+};
+
+const uint8_t cozette_char_54[] = {
+    0x30, 0x40, 0x80, 0xF0, 0x88, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_55[] = {
+    0xF8, 0x08, 0x10, 0x10, 0x20, 0x20, 0x40, 0x40
+};
+
+const uint8_t cozette_char_56[] = {
+    0x70, 0x88, 0x88, 0x70, 0x88, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_57[] = {
+    0x70, 0x88, 0x88, 0x88, 0x78, 0x08, 0x10, 0x60
+};
+
+const uint8_t cozette_char_58[] = {
+    0xC0, 0xC0, 0x00, 0x00, 0xC0, 0xC0
+};
+
+const uint8_t cozette_char_59[] = {
+    0xC0, 0xC0, 0x00, 0x00, 0xC0, 0xC0, 0x40, 0x80
+};
+
+const uint8_t cozette_char_60[] = {
+    0x10, 0x20, 0x40, 0x80, 0x40, 0x20, 0x10
+};
+
+const uint8_t cozette_char_61[] = {
+    0xF8, 0x00, 0xF8
+};
+
+const uint8_t cozette_char_62[] = {
+    0x80, 0x40, 0x20, 0x10, 0x20, 0x40, 0x80
+};
+
+const uint8_t cozette_char_63[] = {
+    0x70, 0x88, 0x08, 0x10, 0x20, 0x20, 0x00, 0x20
+};
+
+const uint8_t cozette_char_64[] = {
+    0x70, 0x88, 0x88, 0xB8, 0xA8, 0xB8, 0x80, 0x78
+};
+
+const uint8_t cozette_char_65[] = {
+    0x70, 0x88, 0x88, 0x88, 0xF8, 0x88, 0x88, 0x88
+};
+
+const uint8_t cozette_char_66[] = {
+    0xF0, 0x88, 0x88, 0xF0, 0x88, 0x88, 0x88, 0xF0
+};
+
+const uint8_t cozette_char_67[] = {
+    0x70, 0x88, 0x80, 0x80, 0x80, 0x80, 0x88, 0x70
+};
+
+const uint8_t cozette_char_68[] = {
+    0xE0, 0x90, 0x88, 0x88, 0x88, 0x88, 0x90, 0xE0
+};
+
+const uint8_t cozette_char_69[] = {
+    0xF8, 0x80, 0x80, 0xF0, 0x80, 0x80, 0x80, 0xF8
+};
+
+const uint8_t cozette_char_70[] = {
+    0xF8, 0x80, 0x80, 0xF0, 0x80, 0x80, 0x80, 0x80
+};
+
+const uint8_t cozette_char_71[] = {
+    0x70, 0x88, 0x80, 0x80, 0x98, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_72[] = {
+    0x88, 0x88, 0x88, 0xF8, 0x88, 0x88, 0x88, 0x88
+};
+
+const uint8_t cozette_char_73[] = {
+    0xE0, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0xE0
+};
+
+const uint8_t cozette_char_74[] = {
+    0x38, 0x08, 0x08, 0x08, 0x08, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_75[] = {
+    0x88, 0x90, 0xA0, 0xE0, 0x90, 0x90, 0x88, 0x88
+};
+
+const uint8_t cozette_char_76[] = {
+    0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0xF8
+};
+
+const uint8_t cozette_char_77[] = {
+    0x88, 0xD8, 0xA8, 0xA8, 0x88, 0x88, 0x88, 0x88
+};
+
+const uint8_t cozette_char_78[] = {
+    0x88, 0xC8, 0xC8, 0xA8, 0xA8, 0x98, 0x98, 0x88
+};
+
+const uint8_t cozette_char_79[] = {
+    0x70, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_80[] = {
+    0xF0, 0x88, 0x88, 0x88, 0xF0, 0x80, 0x80, 0x80
+};
+
+const uint8_t cozette_char_81[] = {
+    0x70, 0x88, 0x88, 0x88, 0x88, 0x88, 0x90, 0x68, 0x08
+};
+
+const uint8_t cozette_char_82[] = {
+    0xF0, 0x88, 0x88, 0xF0, 0x90, 0x88, 0x88, 0x88
+};
+
+const uint8_t cozette_char_83[] = {
+    0x70, 0x88, 0x80, 0x70, 0x08, 0x08, 0x88, 0x70
+};
+
+const uint8_t cozette_char_84[] = {
+    0xF8, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20
+};
+
+const uint8_t cozette_char_85[] = {
+    0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_86[] = {
+    0x88, 0x88, 0x88, 0x50, 0x50, 0x50, 0x20, 0x20
+};
+
+const uint8_t cozette_char_87[] = {
+    0x88, 0x88, 0x88, 0xA8, 0xA8, 0x70, 0x50, 0x50
+};
+
+const uint8_t cozette_char_88[] = {
+    0x88, 0x88, 0x50, 0x20, 0x20, 0x50, 0x88, 0x88
+};
+
+const uint8_t cozette_char_89[] = {
+    0x88, 0x88, 0x88, 0x50, 0x20, 0x20, 0x20, 0x20
+};
+
+const uint8_t cozette_char_90[] = {
+    0xF8, 0x10, 0x20, 0x20, 0x40, 0x40, 0x80, 0xF8
+};
+
+const uint8_t cozette_char_91[] = {
+    0xE0, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0xE0
+};
+
+const uint8_t cozette_char_92[] = {
+    0x80, 0x80, 0x40, 0x40, 0x20, 0x20, 0x10, 0x10, 0x08, 0x08
+};
+
+const uint8_t cozette_char_93[] = {
+    0xE0, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0xE0
+};
+
+const uint8_t cozette_char_94[] = {
+    0x20, 0x50, 0x88
+};
+
+const uint8_t cozette_char_95[] = {
+    0xF8
+};
+
+const uint8_t cozette_char_96[] = {
+    0x80, 0x40
+};
+
+const uint8_t cozette_char_97[] = {
+    0x78, 0x88, 0x88, 0x88, 0x98, 0x68
+};
+
+const uint8_t cozette_char_98[] = {
+    0x80, 0x80, 0x80, 0xF0, 0x88, 0x88, 0x88, 0x88, 0xF0
+};
+
+const uint8_t cozette_char_99[] = {
+    0x70, 0x88, 0x80, 0x80, 0x88, 0x70
+};
+
+const uint8_t cozette_char_100[] = {
+    0x08, 0x08, 0x08, 0x78, 0x88, 0x88, 0x88, 0x88, 0x78
+};
+
+const uint8_t cozette_char_101[] = {
+    0x70, 0x88, 0xF8, 0x80, 0x88, 0x70
+};
+
+const uint8_t cozette_char_102[] = {
+    0x38, 0x40, 0x40, 0xF0, 0x40, 0x40, 0x40, 0x40, 0x40
+};
+
+const uint8_t cozette_char_103[] = {
+    0x78, 0x88, 0x88, 0x88, 0x88, 0x78, 0x08, 0x08, 0x70
+};
+
+const uint8_t cozette_char_104[] = {
+    0x80, 0x80, 0x80, 0xF0, 0x88, 0x88, 0x88, 0x88, 0x88
+};
+
+const uint8_t cozette_char_105[] = {
+    0x40, 0x00, 0xC0, 0x40, 0x40, 0x40, 0x40, 0x30
+};
+
+const uint8_t cozette_char_106[] = {
+    0x20, 0x00, 0x60, 0x20, 0x20, 0x20, 0x20, 0x20, 0xA0, 0x40
+};
+
+const uint8_t cozette_char_107[] = {
+    0x80, 0x80, 0x80, 0x88, 0x90, 0xA0, 0xE0, 0x90, 0x88
+};
+
+const uint8_t cozette_char_108[] = {
+    0xC0, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x60
+};
+
+const uint8_t cozette_char_109[] = {
+    0xD0, 0xA8, 0xA8, 0xA8, 0xA8, 0xA8
+};
+
+const uint8_t cozette_char_110[] = {
+    0xF0, 0x88, 0x88, 0x88, 0x88, 0x88
+};
+
+const uint8_t cozette_char_111[] = {
+    0x70, 0x88, 0x88, 0x88, 0x88, 0x70
+};
+
+const uint8_t cozette_char_112[] = {
+    0xF0, 0x88, 0x88, 0x88, 0x88, 0xF0, 0x80, 0x80, 0x80
+};
+
+const uint8_t cozette_char_113[] = {
+    0x78, 0x88, 0x88, 0x88, 0x88, 0x78, 0x08, 0x08, 0x0C
+};
+
+const uint8_t cozette_char_114[] = {
+    0xF0, 0x88, 0x80, 0x80, 0x80, 0x80
+};
+
+const uint8_t cozette_char_115[] = {
+    0x78, 0x80, 0x70, 0x08, 0x08, 0xF0
+};
+
+const uint8_t cozette_char_116[] = {
+    0x40, 0x40, 0xF0, 0x40, 0x40, 0x40, 0x40, 0x38
+};
+
+const uint8_t cozette_char_117[] = {
+    0x88, 0x88, 0x88, 0x88, 0x88, 0x78
+};
+
+const uint8_t cozette_char_118[] = {
+    0x88, 0x88, 0x50, 0x50, 0x20, 0x20
+};
+
+const uint8_t cozette_char_119[] = {
+    0x88, 0x88, 0xA8, 0xA8, 0x50, 0x50
+};
+
+const uint8_t cozette_char_120[] = {
+    0x88, 0x50, 0x20, 0x20, 0x50, 0x88
+};
+
+const uint8_t cozette_char_121[] = {
+    0x88, 0x88, 0x88, 0x88, 0x88, 0x78, 0x08, 0x08, 0x70
+};
+
+const uint8_t cozette_char_122[] = {
+    0xF8, 0x10, 0x20, 0x40, 0x80, 0xF8
+};
+
+const uint8_t cozette_char_123[] = {
+    0x18, 0x20, 0x20, 0x20, 0x20, 0xC0, 0x20, 0x20, 0x20, 0x20, 0x18
+};
+
+const uint8_t cozette_char_124[] = {
+    0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80, 0x80
+};
+
+const uint8_t cozette_char_125[] = {
+    0xC0, 0x20, 0x20, 0x20, 0x20, 0x18, 0x20, 0x20, 0x20, 0x20, 0xC0
+};
+
+const uint8_t cozette_char_126[] = {
+    0x48, 0xA8, 0x90
+};
+
+// --- cozette Lookup Table ---
+const Glyph cozette_Table[] = {
+    { 1, 1, 6, -1, cozette_char_32 }, // ASCII 32: ' '
+    { 1, 8, 6, 0, cozette_char_33 }, // ASCII 33: '!'
+    { 3, 3, 6, 6, cozette_char_34 }, // ASCII 34: '"'
+    { 5, 8, 6, 0, cozette_char_35 }, // ASCII 35: '#'
+    { 5, 10, 6, -1, cozette_char_36 }, // ASCII 36: '$'
+    { 5, 9, 6, 0, cozette_char_37 }, // ASCII 37: '%'
+    { 5, 9, 6, 0, cozette_char_38 }, // ASCII 38: '&'
+    { 1, 3, 6, 6, cozette_char_39 }, // ASCII 39: '\''
+    { 3, 11, 6, -2, cozette_char_40 }, // ASCII 40: '('
+    { 3, 11, 6, -2, cozette_char_41 }, // ASCII 41: ')'
+    { 5, 5, 6, 1, cozette_char_42 }, // ASCII 42: '*'
+    { 5, 5, 6, 1, cozette_char_43 }, // ASCII 43: '+'
+    { 2, 4, 6, -2, cozette_char_44 }, // ASCII 44: ','
+    { 5, 1, 6, 3, cozette_char_45 }, // ASCII 45: '-'
+    { 2, 2, 6, 0, cozette_char_46 }, // ASCII 46: '.'
+    { 5, 10, 6, -1, cozette_char_47 }, // ASCII 47: '/'
+    { 5, 8, 6, 0, cozette_char_48 }, // ASCII 48: '0'
+    { 5, 8, 6, 0, cozette_char_49 }, // ASCII 49: '1'
+    { 5, 8, 6, 0, cozette_char_50 }, // ASCII 50: '2'
+    { 5, 8, 6, 0, cozette_char_51 }, // ASCII 51: '3'
+    { 6, 8, 6, 0, cozette_char_52 }, // ASCII 52: '4'
+    { 5, 8, 6, 0, cozette_char_53 }, // ASCII 53: '5'
+    { 5, 8, 6, 0, cozette_char_54 }, // ASCII 54: '6'
+    { 5, 8, 6, 0, cozette_char_55 }, // ASCII 55: '7'
+    { 5, 8, 6, 0, cozette_char_56 }, // ASCII 56: '8'
+    { 5, 8, 6, 0, cozette_char_57 }, // ASCII 57: '9'
+    { 2, 6, 6, 0, cozette_char_58 }, // ASCII 58: ':'
+    { 2, 8, 6, -2, cozette_char_59 }, // ASCII 59: ';'
+    { 4, 7, 6, 0, cozette_char_60 }, // ASCII 60: '<'
+    { 5, 3, 6, 2, cozette_char_61 }, // ASCII 61: '='
+    { 4, 7, 6, 0, cozette_char_62 }, // ASCII 62: '>'
+    { 5, 8, 6, 0, cozette_char_63 }, // ASCII 63: '?'
+    { 5, 8, 6, 0, cozette_char_64 }, // ASCII 64: '@'
+    { 5, 8, 6, 0, cozette_char_65 }, // ASCII 65: 'A'
+    { 5, 8, 6, 0, cozette_char_66 }, // ASCII 66: 'B'
+    { 5, 8, 6, 0, cozette_char_67 }, // ASCII 67: 'C'
+    { 5, 8, 6, 0, cozette_char_68 }, // ASCII 68: 'D'
+    { 5, 8, 6, 0, cozette_char_69 }, // ASCII 69: 'E'
+    { 5, 8, 6, 0, cozette_char_70 }, // ASCII 70: 'F'
+    { 5, 8, 6, 0, cozette_char_71 }, // ASCII 71: 'G'
+    { 5, 8, 6, 0, cozette_char_72 }, // ASCII 72: 'H'
+    { 3, 8, 6, 0, cozette_char_73 }, // ASCII 73: 'I'
+    { 5, 8, 6, 0, cozette_char_74 }, // ASCII 74: 'J'
+    { 5, 8, 6, 0, cozette_char_75 }, // ASCII 75: 'K'
+    { 5, 8, 6, 0, cozette_char_76 }, // ASCII 76: 'L'
+    { 5, 8, 6, 0, cozette_char_77 }, // ASCII 77: 'M'
+    { 5, 8, 6, 0, cozette_char_78 }, // ASCII 78: 'N'
+    { 5, 8, 6, 0, cozette_char_79 }, // ASCII 79: 'O'
+    { 5, 8, 6, 0, cozette_char_80 }, // ASCII 80: 'P'
+    { 5, 9, 6, -1, cozette_char_81 }, // ASCII 81: 'Q'
+    { 5, 8, 6, 0, cozette_char_82 }, // ASCII 82: 'R'
+    { 5, 8, 6, 0, cozette_char_83 }, // ASCII 83: 'S'
+    { 5, 8, 6, 0, cozette_char_84 }, // ASCII 84: 'T'
+    { 5, 8, 6, 0, cozette_char_85 }, // ASCII 85: 'U'
+    { 5, 8, 6, 0, cozette_char_86 }, // ASCII 86: 'V'
+    { 5, 8, 6, 0, cozette_char_87 }, // ASCII 87: 'W'
+    { 5, 8, 6, 0, cozette_char_88 }, // ASCII 88: 'X'
+    { 5, 8, 6, 0, cozette_char_89 }, // ASCII 89: 'Y'
+    { 5, 8, 6, 0, cozette_char_90 }, // ASCII 90: 'Z'
+    { 3, 11, 6, -2, cozette_char_91 }, // ASCII 91: '['
+    { 5, 10, 6, -1, cozette_char_92 }, // ASCII 92: '\\'
+    { 3, 11, 6, -2, cozette_char_93 }, // ASCII 93: ']'
+    { 5, 3, 6, 7, cozette_char_94 }, // ASCII 94: '^'
+    { 5, 1, 6, -1, cozette_char_95 }, // ASCII 95: '_'
+    { 2, 2, 6, 7, cozette_char_96 }, // ASCII 96: '`'
+    { 5, 6, 6, 0, cozette_char_97 }, // ASCII 97: 'a'
+    { 5, 9, 6, 0, cozette_char_98 }, // ASCII 98: 'b'
+    { 5, 6, 6, 0, cozette_char_99 }, // ASCII 99: 'c'
+    { 5, 9, 6, 0, cozette_char_100 }, // ASCII 100: 'd'
+    { 5, 6, 6, 0, cozette_char_101 }, // ASCII 101: 'e'
+    { 5, 9, 6, 0, cozette_char_102 }, // ASCII 102: 'f'
+    { 5, 9, 6, -3, cozette_char_103 }, // ASCII 103: 'g'
+    { 5, 9, 6, 0, cozette_char_104 }, // ASCII 104: 'h'
+    { 4, 8, 6, 0, cozette_char_105 }, // ASCII 105: 'i'
+    { 3, 10, 6, -2, cozette_char_106 }, // ASCII 106: 'j'
+    { 5, 9, 6, 0, cozette_char_107 }, // ASCII 107: 'k'
+    { 3, 9, 6, 0, cozette_char_108 }, // ASCII 108: 'l'
+    { 5, 6, 6, 0, cozette_char_109 }, // ASCII 109: 'm'
+    { 5, 6, 6, 0, cozette_char_110 }, // ASCII 110: 'n'
+    { 5, 6, 6, 0, cozette_char_111 }, // ASCII 111: 'o'
+    { 5, 9, 6, -3, cozette_char_112 }, // ASCII 112: 'p'
+    { 6, 9, 6, -3, cozette_char_113 }, // ASCII 113: 'q'
+    { 5, 6, 6, 0, cozette_char_114 }, // ASCII 114: 'r'
+    { 5, 6, 6, 0, cozette_char_115 }, // ASCII 115: 's'
+    { 5, 8, 6, 0, cozette_char_116 }, // ASCII 116: 't'
+    { 5, 6, 6, 0, cozette_char_117 }, // ASCII 117: 'u'
+    { 5, 6, 6, 0, cozette_char_118 }, // ASCII 118: 'v'
+    { 5, 6, 6, 0, cozette_char_119 }, // ASCII 119: 'w'
+    { 5, 6, 6, 0, cozette_char_120 }, // ASCII 120: 'x'
+    { 5, 9, 6, -3, cozette_char_121 }, // ASCII 121: 'y'
+    { 5, 6, 6, 0, cozette_char_122 }, // ASCII 122: 'z'
+    { 5, 11, 6, -2, cozette_char_123 }, // ASCII 123: '{'
+    { 1, 11, 6, -2, cozette_char_124 }, // ASCII 124: '|'
+    { 5, 11, 6, -2, cozette_char_125 }, // ASCII 125: '}'
+    { 5, 3, 6, 2, cozette_char_126 }, // ASCII 126: '~'
+};
+
+// --- cozette Font Metadata ---
+const gfx_font_t cozette_font = {
+    .glyphs = cozette_Table,
+    .start_char = 32,
+    .end_char = 126,
+};
