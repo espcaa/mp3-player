@@ -252,7 +252,7 @@ Oh also, jlcpcb wants to charge me 40$ more to get a white pcb :sob:. Since my w
 \
 **Total time spent: 49 hours**
 
-# 4th June 2026
+## 4th June 2026
 
 Today I went on a polishing spree!
 
@@ -272,7 +272,7 @@ _0 errors omg_
 Now I need to actually lockin on the case :sob:
 **Total time spent: 51 hours**
 
-# 12th June
+## 12th June
 
 I'm back \o/\
 Today I:
@@ -286,7 +286,7 @@ _redesign_
 
 **Total time spent: 54 hours**
 
-# 14th June
+## 14th June
 
 Today I focused on making a case for it!\
 I made a lot of research on how i could join parts & battled with onshape to get my pcb & other components in my file.\
@@ -304,7 +304,7 @@ _onshaep thingies_
 \
 **Total time spent: 57 hours**
 
-# 15th June
+## 15th June
 
 Turns out sleeping a normal amount of time makes you more productive!\
 Today I really locked in & finished the case design!\
@@ -330,7 +330,7 @@ I'm thinking of printing different parts in different colors to make it look coo
 
 **Total time spent: 62 hours**
 
-# 17th June
+## 17th June
 
 This is going to be a long journal entry & a long commit cause I did a lot today & forgot to journal yesterday :pensive:\
 I started the firmware!\
@@ -368,3 +368,29 @@ I also made a bunch of tooling for fonts, upload to the sdcard & running the emu
 No working music or settings or anything yet but this is definitely going somewhere!!!
 
 **Total time spent: 70 hours**
+
+## 18th June
+
+Today I continued my work on the firmware...\
+Tbh i'm getting quite bored of that but we need to ship this thing :sob:\
+\
+Things I did today:
+
+- way better fonts
+- fixed padding/margin things
+- new now playing screen
+- status bar!
+- better dpad navigation
+
+I didn't really worked on the pico sdk implementation of the hal though... so that's what I need to focus on tomorrow.\
+\
+<img src="assets/18-06-26_01.png" alt="" width="400"/>
+\
+_new now playing screen_
+\
+\
+<img src="assets/18-06-26_02.png" alt="" width="400"/>
+\
+_new library_
+
+**Total time spent: 75 hours**
