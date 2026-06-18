@@ -70,4 +70,13 @@ void hal_input_read(hal_input_t *out_state);
 
 void hal_input_init(void);
 
+typedef struct {
+  uint8_t percent;
+  bool charging;
+  bool present;
+} hal_battery_t;
+
+void hal_battery_init(void);
+void hal_battery_read(hal_battery_t *out_state);
+
 #endif

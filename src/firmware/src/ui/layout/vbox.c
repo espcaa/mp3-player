@@ -18,6 +18,7 @@ widget_t *vbox_create(int16_t x, int16_t y, int16_t width, int16_t height) {
   w->width = width;
   w->height = height;
   w->visible = true;
+  w->on_layout = vbox_recalc_layout;
   w->on_render = vbox_render;
   return w;
 }

@@ -11,6 +11,17 @@ void widget_add_child(widget_t *parent, widget_t *child) {
   child->parent = parent;
 }
 
+void widget_layout(widget_t *w) {
+  if (!w || !w->visible)
+    return;
+  // pre-order: a parent sizes/positions its children before they lay out their
+  // own children, so nested boxes see the dimensions assigned to them.
+  if (w->on_layout)
+    w->on_layout(w);
+  for (uint8_t i = 0; i < w->child_count; i++)
+    widget_layout(w->children[i]);
+}
+
 void widget_render(const widget_t *w, int16_t parent_x, int16_t parent_y) {
   if (!w || !w->visible)
     return;

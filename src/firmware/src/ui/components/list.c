@@ -18,6 +18,7 @@ typedef struct {
   anim_t scroll;
   list_select_fn on_select;
   void *user;
+  int font_scale;
 } list_state_t;
 
 static void update_scroll_target(list_state_t *s, int16_t view_h) {
@@ -73,8 +74,8 @@ static void list_render(const widget_t *w, int16_t ax, int16_t ay) {
       continue;
     int16_t baseline = row_y + ITEM_PAD_Y + s->font->height;
     uint32_t col = (i == s->selected) ? g_theme->on_accent : g_theme->text_dim;
-    gfx_draw_string(ax + ITEM_PAD_X, baseline + ITEM_PAD_Y / 2, s->items[i],
-                    s->font, col, 1);
+    gfx_draw_string(ax + ITEM_PAD_X, baseline + ITEM_PAD_Y / 2.5, s->items[i],
+                    s->font, col, s->font_scale);
   }
 
   gfx_clear_clip();
@@ -87,7 +88,7 @@ static void list_destroy(widget_t *w) {
 
 widget_t *list_create(int16_t x, int16_t y, int16_t width, int16_t height,
                       const char **items, int count, const gfx_font_t *font,
-                      list_select_fn on_select, void *user) {
+                      list_select_fn on_select, void *user, int font_scale) {
   widget_t *w = calloc(1, sizeof(widget_t));
   if (!w)
     return NULL;
@@ -98,6 +99,7 @@ widget_t *list_create(int16_t x, int16_t y, int16_t width, int16_t height,
   }
 
   s->items = items;
+  s->font_scale = font_scale;
   s->count = count;
   s->font = font;
   s->item_height = (int16_t)(font->height + ITEM_PAD_Y * 2);

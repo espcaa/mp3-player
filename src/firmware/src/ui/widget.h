@@ -17,6 +17,7 @@ struct widget_s {
   widget_fn on_enter;
   widget_fn on_exit;
   void (*on_update)(widget_t *w, const hal_input_t *input, int32_t dt_ms);
+  void (*on_layout)(widget_t *w); // positions/sizes children (vbox/hbox)
   void (*on_render)(const widget_t *w, int16_t abs_x, int16_t abs_y);
   widget_fn on_destroy;
 
@@ -33,6 +34,7 @@ struct widget_s {
 };
 
 void widget_add_child(widget_t *parent, widget_t *child);
+void widget_layout(widget_t *w);
 void widget_render(const widget_t *w, int16_t parent_x, int16_t parent_y);
 void widget_handle_input(widget_t *w, const hal_input_t *input, int32_t dt_ms);
 void widget_destroy(widget_t *w);

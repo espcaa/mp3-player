@@ -50,6 +50,8 @@ void sm_update(screen_manager_t *sm, const hal_input_t *input, int32_t dt_ms) {
 
 void sm_render(screen_manager_t *sm) {
   screen_t *top = sm_top(sm);
-  if (top && top->root)
+  if (top && top->root) {
+    widget_layout(top->root);
     widget_render(top->root, 0, 0);
+  }
 }

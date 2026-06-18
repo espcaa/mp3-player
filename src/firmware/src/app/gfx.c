@@ -106,7 +106,8 @@ static uint32_t rd32(const uint8_t *p) {
          ((uint32_t)p[3] << 24);
 }
 
-bool gfx_draw_bmp(int x, int y, int dst_w, int dst_h, const char *path) {
+bool gfx_draw_alpha_bmp(int x, int y, int dst_w, int dst_h, const char *path,
+                        uint32_t bg_color, uint32_t alpha_level) {
   hal_file_t f = hal_fopen(path, "rb");
   if (!f)
     return false;
@@ -158,9 +159,25 @@ bool gfx_draw_bmp(int x, int y, int dst_w, int dst_h, const char *path) {
       if (o < 0 || o >= out_h)
         continue;
       for (int c = 0; c < out_w; c++) {
-        const uint8_t *px = row + (c * src_w / out_w) * bpp_bytes; // BGR(A)
+        const uint8_t *px = row + (c * src_w / out_w) * bpp_bytes;
         uint32_t rgb666 = ((uint32_t)(px[2] >> 2) << 12) |
                           ((uint32_t)(px[1] >> 2) << 6) | (px[0] >> 2);
+
+        // blend with bg_color using alpha_level
+        uint32_t bg_r = (bg_color >> 12) & 0x3F;
+        uint32_t bg_g = (bg_color >> 6) & 0x3F;
+        uint32_t bg_b = bg_color & 0x3F;
+        uint32_t fg_r = (rgb666 >> 12) & 0x3F;
+        uint32_t fg_g = (rgb666 >> 6) & 0x3F;
+        uint32_t fg_b = rgb666 & 0x3F;
+        uint32_t out_r =
+            (fg_r * alpha_level + bg_r * (255 - alpha_level)) / 255;
+        uint32_t out_g =
+            (fg_g * alpha_level + bg_g * (255 - alpha_level)) / 255;
+        uint32_t out_b =
+            (fg_b * alpha_level + bg_b * (255 - alpha_level)) / 255;
+        rgb666 = (out_r << 12) | (out_g << 6) | out_b;
+
         gfx_draw_pixel(x + c, y + o, rgb666);
       }
     }
@@ -168,4 +185,8 @@ bool gfx_draw_bmp(int x, int y, int dst_w, int dst_h, const char *path) {
 
   hal_fclose(f);
   return true;
+}
+
+bool gfx_draw_bmp(int x, int y, int dst_w, int dst_h, const char *path) {
+  return gfx_draw_alpha_bmp(x, y, dst_w, dst_h, path, 0, 255);
 }

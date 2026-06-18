@@ -36,4 +36,9 @@ void gfx_draw_char(int16_t x, int16_t y, char c, const gfx_font_t *font,
 
 bool gfx_draw_bmp(int x, int y, int dst_w, int dst_h, const char *path);
 
+// draws each pixel of the bmp with alpha blending against bg_color, using
+// alpha_level (0-255) as the opacity
+bool gfx_draw_alpha_bmp(int x, int y, int dst_w, int dst_h, const char *path,
+                        uint32_t bg_color, uint32_t alpha_level);
+
 #endif

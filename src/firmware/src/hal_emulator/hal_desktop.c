@@ -255,3 +255,15 @@ void hal_input_read(hal_input_t *out_state) {
   internal_state.volume_down_pressed = false;
   internal_state.volume_up_pressed = false;
 }
+
+void hal_battery_init(void) {}
+
+void hal_battery_read(hal_battery_t *out_state) {
+  uint32_t phase = (SDL_GetTicks() / 300) % 200;
+  bool charging = phase >= 100;
+  uint8_t percent = charging ? (uint8_t)(phase - 100) : (uint8_t)(100 - phase);
+
+  out_state->percent = percent;
+  out_state->charging = charging;
+  out_state->present = true;
+}

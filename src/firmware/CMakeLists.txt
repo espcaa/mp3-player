@@ -24,10 +24,8 @@ set(CORE_SOURCES
 
     # fonts
     src/ui/fonts/font_lexend.c
-    src/ui/fonts/font_cozette.c
-    src/ui/fonts/font_notosans.c
-    src/ui/fonts/font_ibmplexmono.c
     src/ui/fonts/font_lexend64.c
+    src/ui/fonts/font_m5x7.c
 
     # other things ig
     src/ui/screen.c
@@ -42,6 +40,8 @@ set(CORE_SOURCES
     src/ui/components/list.c
     src/ui/components/image.c
     src/ui/components/now_playing_bar.c
+    src/ui/components/progressbar.c
+    src/ui/components/statusbar.c
 )
 
 include_directories(src/app)

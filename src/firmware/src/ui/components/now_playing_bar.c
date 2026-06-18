@@ -4,7 +4,7 @@
 #include "../../app/library.h"
 #include "../../app/player.h"
 #include "../../app/theme.h"
-#include "../fonts/font_lexend.h"
+#include "../fonts/font_m5x7.h"
 #include <stdlib.h>
 
 static void bar_render(const widget_t *w, int16_t ax, int16_t ay) {
@@ -24,8 +24,8 @@ static void bar_render(const widget_t *w, int16_t ax, int16_t ay) {
   int16_t tx = ax + cover + 16;
   const char *title = t ? t->title : "Nothing playing";
   const char *artist = t ? t->artist : "Pick a track";
-  gfx_draw_string(tx, ay + 34, title, &lexend_font, g_theme->text, 1);
-  gfx_draw_string(tx, ay + 62, artist, &lexend_font, g_theme->text_dim, 1);
+  gfx_draw_string(tx, ay + 34, title, &m5x7_font, g_theme->text, 3);
+  gfx_draw_string(tx, ay + 62, artist, &m5x7_font, g_theme->text, 2);
 
   if (t && g_player.total_ms > 0) {
     int prog =

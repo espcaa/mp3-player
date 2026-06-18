@@ -5,12 +5,14 @@
 #include "../components/label.h"
 #include "../components/list.h"
 #include "../components/now_playing_bar.h"
-#include "../fonts/font_lexend.h"
+#include "../components/statusbar.h"
+#include "../fonts/font_lexend64.h"
+#include "../fonts/font_m5x7.h"
 #include "../layout/container.h"
 #include "nowplaying.h"
 #include <stdlib.h>
 
-#define HEADER_H 90
+#define HEADER_H 140
 #define BAR_H 88
 
 typedef struct {
@@ -25,7 +27,6 @@ static void on_track_select(int index, void *user) {
   if (index < 0 || index >= g_library.count)
     return;
   player_play_track(index);
-  sm_push(c->sm, now_playing_screen_create(c->sm));
 }
 
 static void lib_input(screen_t *s, const hal_input_t *in, int32_t dt_ms) {
@@ -72,26 +73,27 @@ screen_t *library_screen_create(screen_manager_t *sm) {
     }
   }
 
-  // Full-screen backdrop holding a header and an inset (non-fullscreen) list.
   widget_t *root = container_create(SCREEN_WIDTH, SCREEN_HEIGHT, g_theme->bg);
 
-  widget_t *header =
-      label_create("Library", &lexend_font, g_theme->text, 1);
+  widget_t *status = status_bar_create();
+
+  widget_t *header = label_create("Library", &lexend64_font, g_theme->text, 1);
   header->x = 24;
-  header->y = 36;
+  header->y = HEADER_H - 28;
 
   widget_t *list =
       list_create(0, HEADER_H, SCREEN_WIDTH, SCREEN_HEIGHT - HEADER_H - BAR_H,
-                  items, count, &lexend_font, on_track_select, c);
+                  items, count, &m5x7_font, on_track_select, c, 3);
 
   widget_t *bar =
       now_playing_bar_create(0, SCREEN_HEIGHT - BAR_H, SCREEN_WIDTH, BAR_H);
 
+  widget_add_child(root, status);
   widget_add_child(root, header);
   widget_add_child(root, list);
   widget_add_child(root, bar);
-  // Route input to the list (index 1), not the header or bar.
-  root->focus_index = 1;
+  // route input to the list (child index 2: status, header, list, bar)
+  root->focus_index = 2;
 
   s->root = root;
   s->ctx = c;
