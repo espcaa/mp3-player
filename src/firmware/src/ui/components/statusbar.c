@@ -3,6 +3,7 @@
 #include "../../app/hal.h"
 #include "../../app/theme.h"
 #include "../fonts/font_m5x7.h"
+#include "../icons/icons.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -33,6 +34,9 @@ static void statusbar_render(const widget_t *w, int16_t ax, int16_t ay) {
 
   uint32_t fg = g_battery_charging ? g_theme->text : g_theme->on_accent;
   gfx_draw_string(tx, ty, buf, &m5x7_font, fg, scale);
+  if (g_battery_charging) {
+    gfx_draw_icon(tx - 24, ty - 16, &icon_charging, fg, scale);
+  }
 }
 
 widget_t *status_bar_create() {

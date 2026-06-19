@@ -41,4 +41,13 @@ bool gfx_draw_bmp(int x, int y, int dst_w, int dst_h, const char *path);
 bool gfx_draw_alpha_bmp(int x, int y, int dst_w, int dst_h, const char *path,
                         uint32_t bg_color, uint32_t alpha_level);
 
+typedef struct {
+  uint8_t width;
+  uint8_t height;
+  const uint8_t *data;
+} gfx_icon_t;
+
+void gfx_draw_icon(int16_t x, int16_t y, const gfx_icon_t *icon,
+                   uint32_t color, uint8_t scale);
+
 #endif

@@ -87,6 +87,21 @@ void gfx_draw_char(int16_t x, int16_t y, char c, const gfx_font_t *font,
   }
 }
 
+void gfx_draw_icon(int16_t x, int16_t y, const gfx_icon_t *icon,
+                   uint32_t color, uint8_t scale) {
+  int bytes_per_row = (icon->width + 7) / 8;
+  for (int row = 0; row < icon->height; row++) {
+    for (int col = 0; col < icon->width; col++) {
+      int byte_index = (row * bytes_per_row) + (col / 8);
+      int bit_index = 7 - (col % 8);
+      if (icon->data[byte_index] & (1 << bit_index)) {
+        gfx_draw_fill_rect(x + (col * scale), y + (row * scale), scale, scale,
+                           color);
+      }
+    }
+  }
+}
+
 void gfx_draw_string(int16_t x, int16_t y, const char *str,
                      const gfx_font_t *font, uint32_t color, uint8_t scale) {
   int16_t cursor_x = x;
