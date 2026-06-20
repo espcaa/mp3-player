@@ -37,8 +37,9 @@ If you find this cool, you should read [the journal](https://github.com/espcaa/m
 
 ## Hardware
 
-<img src="misc/pcb.png" alt="pcb" width="200" />
-<img src="misc/cad.png" alt="cad" width="200" />
+<p>
+<img src="misc/pcb.png" alt="pcb" width="200" /><img src="misc/cad.png" alt="cad" width="200" />
+</p>
 
 _pcb & cad screenshots_
 \
@@ -90,8 +91,8 @@ Firmware is MIT, hardware is CERN-OHL-S, and the case files + docs are CC-BY-SA.
 See [LICENSE](LICENSE) for details.\
 \
 \
-<img src="misc/readme-pic0.jpg" alt="readme-pic0" width="300" height="300" />
-<img src="misc/readme-pic1.jpg" alt="readme-pic1" width="300" height="300" />
-<img src="misc/readme-pic2.png" alt="readme-pic2" width="300" height="300" />
-<img src="misc/readme-pic3.jpg" alt="readme-pic3" width="300" height="300" />
-<img src="misc/readme-pic4.jpg" alt="readme-pic4" width="300" height="300" />
+<img src="misc/readme-pic0.jpg" alt="readme-pic0" width="200"/>
+<img src="misc/readme-pic1.jpg" alt="readme-pic1" width="200" />
+<img src="misc/readme-pic2.png" alt="readme-pic2" width="200" />
+<img src="misc/readme-pic3.png" alt="readme-pic3" width="200" />
+<img src="misc/readme-pic4.jpg" alt="readme-pic4" width="200"/>
