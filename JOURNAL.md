@@ -412,3 +412,22 @@ Screenshots!:\
 <img src="assets/19-06-26_02.png" alt="" width="400"/>
 
 **Total time spent: 81 hours**
+
+## 20th June 2026
+
+Today I finished the case (I forgot to make the buttons :sob:).\
+I also made a few blender renders for the readme!\
+\
+<img src="misc/render.png" alt="" width="400"/>
+\
+_blender render_
+\
+<img src="assets/20-06-26_01.png" alt="" width="400"/>
+<img src="assets/20-06-26_02.png" alt="" width="400"/>
+\
+_buttons!!_
+\
+\
+I finished the day by writing a cool readme & finally shipping this project!
+
+**Total time spent: 85 hours**
