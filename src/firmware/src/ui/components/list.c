@@ -74,8 +74,10 @@ static void list_render(const widget_t *w, int16_t ax, int16_t ay) {
       continue;
     int16_t baseline = row_y + ITEM_PAD_Y + s->font->height;
     uint32_t col = (i == s->selected) ? g_theme->on_accent : g_theme->text_dim;
-    gfx_draw_string(ax + ITEM_PAD_X, baseline + ITEM_PAD_Y / 2.5, s->items[i],
-                    s->font, col, s->font_scale);
+    int16_t max_width = w->width - ITEM_PAD_X * 2;
+    gfx_draw_string_ellipsized(ax + ITEM_PAD_X, baseline + ITEM_PAD_Y / 2.5,
+                               s->items[i], s->font, col, s->font_scale,
+                               max_width);
   }
 
   gfx_clear_clip();

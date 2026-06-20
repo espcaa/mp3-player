@@ -1,0 +1,16 @@
+.program dpi
+.side_set 4
+
+; side-set bits, base GPIO16: b0=PCLK(16) b1=DE(17) b2=VS(18) b3=HS(19)
+; data: out pins base GPIO20, 16 lines (RGB565, B/G/R contiguous)
+;
+; BASE SCAFFOLD: streams pixels with PCLK toggling, DE held high, VS/HS low.
+; Per-line porch / DE-blanking and VS/HS framing are TODO -- tune on hardware.
+; autopull is 32-bit (two pixels per FIFO word).
+
+.wrap_target
+    out pins, 16   side 0b0010   ; pixel A: PCLK=0, DE=1
+    nop            side 0b0011   ; PCLK=1 (panel latches)
+    out pins, 16   side 0b0010   ; pixel B: PCLK=0, DE=1
+    nop            side 0b0011   ; PCLK=1
+.wrap

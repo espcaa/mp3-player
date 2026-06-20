@@ -87,8 +87,8 @@ void gfx_draw_char(int16_t x, int16_t y, char c, const gfx_font_t *font,
   }
 }
 
-void gfx_draw_icon(int16_t x, int16_t y, const gfx_icon_t *icon,
-                   uint32_t color, uint8_t scale) {
+void gfx_draw_icon(int16_t x, int16_t y, const gfx_icon_t *icon, uint32_t color,
+                   uint8_t scale) {
   int bytes_per_row = (icon->width + 7) / 8;
   for (int row = 0; row < icon->height; row++) {
     for (int col = 0; col < icon->width; col++) {
@@ -105,12 +105,50 @@ void gfx_draw_icon(int16_t x, int16_t y, const gfx_icon_t *icon,
 void gfx_draw_string(int16_t x, int16_t y, const char *str,
                      const gfx_font_t *font, uint32_t color, uint8_t scale) {
   int16_t cursor_x = x;
-  while (*str) {
-    gfx_draw_char(cursor_x, y, *str, font, color, scale);
-    Glyph g = font->glyphs[*str - font->start_char];
+  for (; *str; str++) {
+    unsigned char c = (unsigned char)*str;
+    if (c < font->start_char || c > font->end_char)
+      continue; // unrenderable char: skip without indexing out of bounds
+                // (useful for french accents sob)
+    gfx_draw_char(cursor_x, y, (char)c, font, color, scale);
+    Glyph g = font->glyphs[c - font->start_char];
     cursor_x += g.advance * scale;
-    str++;
   }
+}
+
+int gfx_text_width(const char *str, const gfx_font_t *font, uint8_t scale) {
+  int width = 0;
+  for (; *str; str++) {
+    unsigned char c = (unsigned char)*str;
+    if (c < font->start_char || c > font->end_char)
+      continue;
+    width += font->glyphs[c - font->start_char].advance * scale;
+  }
+  return width;
+}
+
+void gfx_draw_string_ellipsized(int16_t x, int16_t y, const char *str,
+                                const gfx_font_t *font, uint32_t color,
+                                uint8_t scale, int16_t max_width) {
+  if (max_width <= 0 || gfx_text_width(str, font, scale) <= max_width) {
+    gfx_draw_string(x, y, str, font, color, scale);
+    return;
+  }
+
+  // fit what we can, leaving room for a trailing "..."
+  int16_t budget = max_width - gfx_text_width("...", font, scale);
+  int16_t cursor = x;
+  for (; *str; str++) {
+    unsigned char c = (unsigned char)*str;
+    if (c < font->start_char || c > font->end_char)
+      continue;
+    int16_t adv = font->glyphs[c - font->start_char].advance * scale;
+    if (cursor - x + adv > budget)
+      break;
+    gfx_draw_char(cursor, y, (char)c, font, color, scale);
+    cursor += adv;
+  }
+  gfx_draw_string(cursor, y, "...", font, color, scale);
 }
 
 // bmp

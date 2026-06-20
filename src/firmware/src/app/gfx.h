@@ -31,6 +31,13 @@ void gfx_draw_rect(int x, int y, int width, int height, uint32_t rgb666_color);
 void gfx_draw_horizontal_line(int x, int y, int length, uint32_t rgb666_color);
 void gfx_draw_string(int16_t x, int16_t y, const char *str,
                      const gfx_font_t *font, uint32_t color, uint8_t scale);
+// total advance width of str in pixels at the given scale
+int gfx_text_width(const char *str, const gfx_font_t *font, uint8_t scale);
+// draws str cropped to max_width with a trailing "..." when it overflows;
+// max_width <= 0 draws the full string
+void gfx_draw_string_ellipsized(int16_t x, int16_t y, const char *str,
+                                const gfx_font_t *font, uint32_t color,
+                                uint8_t scale, int16_t max_width);
 void gfx_draw_char(int16_t x, int16_t y, char c, const gfx_font_t *font,
                    uint32_t color, uint8_t scale);
 

@@ -67,6 +67,8 @@ static void parse_sidecar(const char *path, track_t *t) {
       set_field(t->album, sizeof(t->album), val);
     else if (strcmp(key, "track") == 0)
       t->track = atoi(val);
+    else if (strcmp(key, "duration") == 0)
+      t->duration_ms = (uint32_t)strtoul(val, NULL, 10);
     else if (strcmp(key, "color") == 0)
       set_field(t->color, sizeof(t->color), val);
   }

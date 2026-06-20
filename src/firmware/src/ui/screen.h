@@ -24,6 +24,7 @@ typedef struct {
 void sm_init(screen_manager_t *sm);
 void sm_push(screen_manager_t *sm, screen_t *s);
 void sm_pop(screen_manager_t *sm);
+void sm_pop_to_root(screen_manager_t *sm); // unwind back to the bottom screen
 screen_t *sm_top(screen_manager_t *sm);
 void sm_update(screen_manager_t *sm, const hal_input_t *input, int32_t dt_ms);
 void sm_render(screen_manager_t *sm);

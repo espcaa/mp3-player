@@ -24,8 +24,11 @@ static void bar_render(const widget_t *w, int16_t ax, int16_t ay) {
   int16_t tx = ax + cover + 16;
   const char *title = t ? t->title : "Nothing playing";
   const char *artist = t ? t->artist : "Pick a track";
-  gfx_draw_string(tx, ay + 34, title, &m5x7_font, g_theme->text, 3);
-  gfx_draw_string(tx, ay + 62, artist, &m5x7_font, g_theme->text, 2);
+  int16_t text_max = w->width - cover - 32; // padding to the right of the text
+  gfx_draw_string_ellipsized(tx, ay + 34, title, &m5x7_font, g_theme->text, 3,
+                             text_max);
+  gfx_draw_string_ellipsized(tx, ay + 62, artist, &m5x7_font, g_theme->text, 2,
+                             text_max);
 
   if (t && g_player.total_ms > 0) {
     int prog =

@@ -56,6 +56,7 @@ typedef struct {
   bool dpad_center;
   bool volume_down;
   bool volume_up;
+  bool power;
 
   bool dpad_up_pressed;
   bool dpad_down_pressed;
@@ -64,6 +65,7 @@ typedef struct {
   bool dpad_center_pressed;
   bool volume_down_pressed;
   bool volume_up_pressed;
+  bool power_pressed;
 } hal_input_t;
 
 void hal_input_read(hal_input_t *out_state);

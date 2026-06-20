@@ -9,6 +9,7 @@ typedef struct {
   char artist[64];
   char album[64];
   int track;
+  uint32_t duration_ms;           // 0 if unknown
   char color[8];                  // "FF8800"
   char cover_small[HAL_MAX_PATH]; // /music/artist/album/cover_80.bmp
   char cover_large[HAL_MAX_PATH]; // /music/artist/album/cover_300.bmp

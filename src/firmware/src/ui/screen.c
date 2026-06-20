@@ -31,6 +31,11 @@ void sm_pop(screen_manager_t *sm) {
     below->on_enter(below);
 }
 
+void sm_pop_to_root(screen_manager_t *sm) {
+  while (sm->depth > 1)
+    sm_pop(sm);
+}
+
 void sm_update(screen_manager_t *sm, const hal_input_t *input, int32_t dt_ms) {
   screen_t *top = sm_top(sm);
   if (!top)

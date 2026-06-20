@@ -105,16 +105,16 @@ screen_t *now_playing_screen_create(screen_manager_t *sm) {
   const int16_t pad = 36; // side margin inside the panel
   const int16_t content_w = SCREEN_WIDTH - pad * 2;
 
-  // title: large + bright; artist: smaller + dim
   c->title_lbl = label_create("Nothing playing", &m5x7_font, g_theme->text, 3);
+  c->title_lbl->width = SCREEN_WIDTH - pad * 2;
   c->title_lbl->x = pad;
   c->title_lbl->y = (52);
   c->artist_lbl =
       label_create("Pick a track", &m5x7_font, g_theme->text_dim, 3);
   c->artist_lbl->x = pad;
+  c->artist_lbl->width = SCREEN_WIDTH - pad * 2;
   c->artist_lbl->y = 92;
 
-  // scrubber with elapsed/total times beneath each end
   const int16_t bar_y = 130;
   c->progress = progress_bar_create(pad, bar_y, content_w, 6,
                                     g_theme->surface_alt, g_theme->accent);

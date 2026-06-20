@@ -10,6 +10,7 @@
 #include "../fonts/font_m5x7.h"
 #include "../layout/container.h"
 #include "nowplaying.h"
+#include "settings.h"
 #include <stdlib.h>
 
 #define HEADER_H 140
@@ -35,6 +36,8 @@ static void lib_input(screen_t *s, const hal_input_t *in, int32_t dt_ms) {
   // open the full now-playing screen (shows a placeholder when idle)
   if (in->dpad_right_pressed)
     sm_push(c->sm, now_playing_screen_create(c->sm));
+  else if (in->dpad_left_pressed)
+    sm_push(c->sm, settings_screen_create(c->sm));
 }
 
 static void lib_destroy(screen_t *s) {

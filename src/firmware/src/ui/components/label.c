@@ -13,7 +13,9 @@ static void label_render(const widget_t *w, int16_t abs_x, int16_t abs_y) {
   if (!s || !s->text)
     return;
   int16_t baseline = abs_y + (s->font->height * s->scale);
-  gfx_draw_string(abs_x, baseline, s->text, s->font, s->color, s->scale);
+  // width == 0 means auto-size (draw everything); otherwise crop with "..."
+  gfx_draw_string_ellipsized(abs_x, baseline, s->text, s->font, s->color,
+                             s->scale, w->width);
 }
 
 static void label_destroy(widget_t *w) {

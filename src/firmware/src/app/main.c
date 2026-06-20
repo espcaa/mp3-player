@@ -50,7 +50,11 @@ int main() {
 
     while (time_accumulator >= MS_PER_FRAME) {
       hal_input_read(&input);
-      player_tick(MS_PER_FRAME); // advance playback before screens read it
+      if (input.volume_up_pressed)
+        player_volume_up();
+      if (input.volume_down_pressed)
+        player_volume_down();
+      player_pump(); // decode + feed audio before screens read player state
       sm_update(&sm, &input, MS_PER_FRAME);
       time_accumulator -= MS_PER_FRAME;
     }

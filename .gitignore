@@ -17,3 +17,4 @@ Makefile
 src/firmware/build_emulator
 .crush
 src/firmware/sdcard
+src/firmware/build_pico

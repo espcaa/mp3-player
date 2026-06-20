@@ -130,8 +130,12 @@ func processTrack(path, destinationDir string) error {
 	}
 
 	// write txt
+	durationMs, derr := mp3DurationMs(path)
+	if derr != nil {
+		fmt.Printf("WARN: duration scan failed for %s: %v\n", path, derr)
+	}
 	txtPath := filepath.Join(destDir, fmt.Sprintf("%02d - %s.txt", trackNum, title))
-	if err := writeTxt(txtPath, title, artist, album, trackNum, color); err != nil {
+	if err := writeTxt(txtPath, title, artist, album, trackNum, color, durationMs); err != nil {
 		return fmt.Errorf("write txt: %w", err)
 	}
 
@@ -165,7 +169,7 @@ func writeBMP(src image.Image, path string, w, h int) error {
 	return bmp.Encode(f, dst)
 }
 
-func writeTxt(path, title, artist, album string, track int, color string) error {
+func writeTxt(path, title, artist, album string, track int, color string, durationMs int64) error {
 	f, err := os.Create(path)
 	if err != nil {
 		return err
@@ -176,7 +180,57 @@ func writeTxt(path, title, artist, album string, track int, color string) error 
 	fmt.Fprintf(f, "album=%s\n", album)
 	fmt.Fprintf(f, "track=%d\n", track)
 	fmt.Fprintf(f, "color=%s\n", color)
+	fmt.Fprintf(f, "duration=%d\n", durationMs)
 	return nil
+}
+
+func mp3DurationMs(path string) (int64, error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return 0, err
+	}
+
+	brV1 := []int{0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320, 0}
+	brV2 := []int{0, 8, 16, 24, 32, 40, 48, 56, 64, 80, 96, 112, 128, 144, 160, 0}
+	srTab := map[byte][]int{3: {44100, 48000, 32000}, 2: {22050, 24000, 16000}, 0: {11025, 12000, 8000}}
+
+	i := 0
+	if len(data) > 10 && string(data[0:3]) == "ID3" {
+		size := int(data[6]&0x7f)<<21 | int(data[7]&0x7f)<<14 | int(data[8]&0x7f)<<7 | int(data[9]&0x7f)
+		i = 10 + size
+	}
+
+	var ms float64
+	for i+4 <= len(data) {
+		if data[i] != 0xFF || data[i+1]&0xE0 != 0xE0 {
+			i++
+			continue
+		}
+		ver := (data[i+1] >> 3) & 0x3
+		layer := (data[i+1] >> 1) & 0x3
+		brIdx := (data[i+2] >> 4) & 0xF
+		srIdx := (data[i+2] >> 2) & 0x3
+		pad := int((data[i+2] >> 1) & 0x1)
+		if ver == 1 || layer != 1 || brIdx == 0 || brIdx == 15 || srIdx == 3 {
+			i++
+			continue
+		}
+		br := brV1[brIdx]
+		samples, coef := 1152, 144
+		if ver != 3 {
+			br = brV2[brIdx]
+			samples, coef = 576, 72
+		}
+		sr := srTab[ver][srIdx]
+		frameLen := coef*br*1000/sr + pad
+		if frameLen < 4 {
+			i++
+			continue
+		}
+		ms += float64(samples) * 1000.0 / float64(sr)
+		i += frameLen
+	}
+	return int64(ms), nil
 }
 
 func averageColor(img image.Image) (uint8, uint8, uint8) {

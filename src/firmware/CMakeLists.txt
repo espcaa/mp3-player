@@ -10,16 +10,34 @@ else()
   endif()
 endif()
 
+if(BUILD_FOR_PICO)
+  include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+  include($ENV{PICO_EXTRAS_PATH}/external/pico_extras_import.cmake)
+endif()
+
 project(mp3_player C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+execute_process(
+  COMMAND git rev-parse --short HEAD
+  WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+  OUTPUT_VARIABLE GIT_COMMIT
+  OUTPUT_STRIP_TRAILING_WHITESPACE
+  ERROR_QUIET
+)
+if(NOT GIT_COMMIT)
+  set(GIT_COMMIT "unknown")
+endif()
+add_compile_definitions(GIT_COMMIT="${GIT_COMMIT}")
 
 set(CORE_SOURCES
     src/app/main.c
     src/app/gfx.c
     src/app/library.c
     src/app/player.c
+    src/app/mp3.c
     src/app/theme.c
 
     # fonts
@@ -31,8 +49,16 @@ set(CORE_SOURCES
     src/ui/screen.c
     src/ui/widget.c
     src/ui/anim.c
+
+    # screens
     src/ui/screens/nowplaying.c
     src/ui/screens/library.c
+    src/ui/screens/settings.c
+    src/ui/screens/bluetooth.c
+    src/ui/screens/bluetooth_pair.c
+    src/ui/screens/about.c
+
+    #components
     src/ui/layout/container.c
     src/ui/layout/vbox.c
     src/ui/layout/hbox.c
@@ -50,18 +76,44 @@ set(CORE_SOURCES
 include_directories(src/app)
 
 if(BUILD_FOR_PICO)
-  include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
   message(STATUS "building for actual hardware")
   pico_sdk_init()
+
+  # ts for the sdcard
+  include(FetchContent)
+  FetchContent_Declare(
+        sd_fatfs
+        GIT_REPOSITORY https://github.com/carlk3/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico.git
+        GIT_TAG v3.6.2
+        SOURCE_SUBDIR src
+    )
+  FetchContent_MakeAvailable(sd_fatfs)
 
   set(PICO_HAL_SOURCES
         src/hal_pico/hal_pico.c
         src/hal_pico/hal_bt_pico.c
+        src/hal_pico/sfe_psram.c
+        src/hal_pico/hw_config.c
+        src/hal_pico/st7701s.c
+        src/hal_pico/dpi.c
     )
 
   add_executable(firmware ${CORE_SOURCES} ${PICO_HAL_SOURCES})
+  pico_generate_pio_header(firmware
+        ${CMAKE_CURRENT_LIST_DIR}/src/hal_pico/dpi.pio)
 
-  target_link_libraries(firmware pico_stdlib pico_audio)
+  target_link_libraries(firmware
+        pico_stdlib
+        hardware_clocks
+        hardware_sync
+        hardware_spi
+        hardware_i2c
+        hardware_dma
+        hardware_pio
+        pico_flash
+        pico_audio_i2s
+        no-OS-FatFS-SD-SDIO-SPI-RPi-Pico
+    )
   pico_add_extra_outputs(firmware)
 
 else()
@@ -76,6 +128,9 @@ else()
     )
 
   add_executable(emulator ${CORE_SOURCES} ${EMULATOR_HAL_SOURCES})
+
+  target_compile_options(emulator PRIVATE -fsanitize=address -g)
+  target_link_options(emulator PRIVATE -fsanitize=address)
 
   target_link_libraries(emulator ${SDL2_LIBRARIES})
 
