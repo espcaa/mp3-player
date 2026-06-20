@@ -394,3 +394,21 @@ _new now playing screen_
 _new library_
 
 **Total time spent: 75 hours**
+
+## 19th June 2026
+
+New firmware features:
+
+- charging & battery icon
+- volume control
+- settings screen
+- bluetooth pairing & connecting screen + status bar integration
+- mp3 decoding & playback actually working
+- pico hal!
+
+Screenshots!:\
+\
+<img src="assets/19-06-26_01.png" alt="" width="400"/>
+<img src="assets/19-06-26_02.png" alt="" width="400"/>
+
+**Total time spent: 81 hours**
