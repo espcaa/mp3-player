@@ -37,9 +37,10 @@ If you find this cool, you should read [the journal](https://github.com/espcaa/m
 
 ## Hardware
 
-<img src="misc/pcb.png" alt="pcb" width="500" />
+<img src="misc/pcb.png" alt="pcb" width="200" />
+<img src="misc/cad.png" alt="cad" width="200" />
 
-_pcb screenshot_
+_pcb & cad screenshots_
 \
 \
 The brain is a 4 layer hand routed pcb, designed to be compact & cheap to manufacture (jlcpcb 4 layers basic tolerances).\
@@ -88,8 +89,9 @@ _(this allows you to run/test the same ui on your computer without flashing the 
 Firmware is MIT, hardware is CERN-OHL-S, and the case files + docs are CC-BY-SA.\
 See [LICENSE](LICENSE) for details.\
 \
-<img src="misc/readme-pic0.png" alt="readme-pic0" width="300" height="300" />
-<img src="misc/readme-pic1.png" alt="readme-pic1" width="300" height="300" />
+\
+<img src="misc/readme-pic0.jpg" alt="readme-pic0" width="300" height="300" />
+<img src="misc/readme-pic1.jpg" alt="readme-pic1" width="300" height="300" />
 <img src="misc/readme-pic2.png" alt="readme-pic2" width="300" height="300" />
-<img src="misc/readme-pic3.png" alt="readme-pic3" width="300" height="300" />
-<img src="misc/readme-pic4.png" alt="readme-pic4" width="300" height="300" />
+<img src="misc/readme-pic3.jpg" alt="readme-pic3" width="300" height="300" />
+<img src="misc/readme-pic4.jpg" alt="readme-pic4" width="300" height="300" />
