@@ -6,7 +6,7 @@
 
 A minimalist open source pocket sized¹ mp3 player\
 \
-(¹ if your pocket is big enough :sob:)
+(¹ if your pocket is big enough to fit a 115mmx50mmx20mm brick)
 
 ## Why did I even build this?
 
@@ -64,8 +64,8 @@ I also originally wanted to make the case in transparent resin, but I ended up c
 
 _Warning: this is wip and some parts of this software have been ai generated to speed up getting a working poc_
 
-<video src="misc/demo.mp4" width="500" controls></video>
-_ui demo video_\
+<img src="misc/output.gif" alt="firmware" width="200" />
+_ui demo_\
 \
 **Building to run on device:**
 
