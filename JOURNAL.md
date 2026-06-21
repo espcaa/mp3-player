@@ -431,3 +431,20 @@ _buttons!!_
 I finished the day by writing a cool readme & finally shipping this project!
 
 **Total time spent: 85 hours**
+
+## 21st June 2026
+
+Shipping day...\
+I first started by trying to order the pcb with pcba on jlcpcb but they wanted 220$ :sob: (and even more for a white pcb aaaa)\
+So I decided to not get pcba & solder it myself!\
+I then tried to start an order on lcsc with my bom but realized that most of my passives were out of stock :(\
+After a lot of time spent trying to find replacements, I ended up with a new bom & a way more reasonable price!\
+\
+<img src="assets/21-06-26_01.png" alt="" width="400"/>
+\
+<img src="assets/21-06-26_02.png" alt="" width="400"/>
+\
+\
+And I can order white!!!
+
+**Total time spent: 89 hours**

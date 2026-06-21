@@ -3828,7 +3828,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25741"
+		(property "LCSC Part" "C481918"
 			(at 43.815 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -3876,7 +3876,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 88.265 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +3990,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 62.23 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,7 +5151,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 104.14 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5264,7 +5264,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "100nf"
 			(at 51.054 36.957 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5760,7 +5760,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C2906861"
 			(at 180.34 57.785 90)
 			(hide yes)
 			(show_name no)
@@ -5873,7 +5873,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC Part" "C307427"
 			(at 168.91 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +6057,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C2906861"
 			(at 63.5 164.465 90)
 			(hide yes)
 			(show_name no)
@@ -6171,7 +6171,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15850"
+		(property "LCSC Part" "C1713"
 			(at 100.33 85.725 90)
 			(hide yes)
 			(show_name no)
@@ -7623,7 +7623,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15850"
+		(property "LCSC Part" "C1713"
 			(at 83.82 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -7736,7 +7736,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C2906861"
 			(at 24.13 71.755 90)
 			(hide yes)
 			(show_name no)

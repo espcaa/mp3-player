@@ -1,6 +1,6 @@
 <img src="misc/render.png" alt="render" width="500" />
 
-[{BOM}](https://github.com/espcaa/mp3-player/blob/main/BOM.md) - [{JOURNAL}](https://github.com/espcaa/mp3-player/blob/main/JOURNAL.md) - [{PCB}](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fespcaa%2Fmp3-player%2Ftree%2Fmain%2Fsrc%2Fkicad) - [{FIRMWARE}](https://github.com/espcaa/mp3-player/blob/main/src/firmware) - [{CAD}](https://github.com/espcaa/mp3-player/blob/main/src/cad)
+[{BOM}](https://github.com/espcaa/mp3-player/blob/main/BOM.md) - [{JOURNAL}](https://github.com/espcaa/mp3-player/blob/main/JOURNAL.md) - [{PCB}](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fespcaa%2Fmp3-player%2Ftree%2Fmain%2Fsrc%2Fkicad) - [{FIRMWARE}](https://github.com/espcaa/mp3-player/blob/main/src/firmware) - [{CAD}](https://cad.onshape.com/documents/df238a6328d0735d97863cef/w/6197d36ae28a3603accb47f3/e/8dee80f336b142ce4e5ee150?renderMode=0&uiState=6a380bcfd7346ceef4261340)
 
 # mp3-player
 
@@ -38,7 +38,7 @@ If you find this cool, you should read [the journal](https://github.com/espcaa/m
 ## Hardware
 
 <p>
-<img src="misc/pcb.png" alt="pcb" width="200" /><img src="misc/cad.png" alt="cad" width="200" />
+<img src="misc/pcb.png" alt="pcb" width="130" /><img src="misc/cad.png" alt="cad" width="200" />
 </p>
 
 _pcb & cad screenshots_
@@ -56,17 +56,14 @@ I also originally wanted to make the case in transparent resin, but I ended up c
 
 [explore the board & schematics in your browser](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fespcaa%2Fmp3-player%2Ftree%2Fmain%2Fsrc%2Fkicad)
 
-### Notes
-
-- the stackup isn't optimal, the device could probably be 3mm thinner if the battery wasn't stacked on top of the sd card
-
 ## Firmware
 
-_Warning: this is wip and some parts of this software have been ai generated to speed up getting a working poc_
+_warning: this is wip and some parts of he firmware have been ai generated get a poc quickly, but I plan to rewrite it very soon._ \
+\
+The firmware is written in c and uses the pico sdk. I also wrote a desktop simulator that allows you to test ui changes without reflashing all the time/having the device.
 
 <img src="misc/output.gif" alt="firmware" width="200" />
-_ui demo_\
-\
+
 **Building to run on device:**
 
 (You need cmake, a pico sdk, an arm-none-eabi toolchain, pico-extras and sdl2 (only if you build the simulator) installed)
@@ -87,7 +84,7 @@ _(this allows you to run/test the same ui on your computer without flashing the 
 
 ## License
 
-Firmware is MIT, hardware is CERN-OHL-S, and the case files + docs are CC-BY-SA.\
+Firmware is MIT, hardware is CERN-OHL-S, and the 3d files + docs are CC-BY-SA.\
 See [LICENSE](LICENSE) for details.\
 \
 \
