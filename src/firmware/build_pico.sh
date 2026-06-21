@@ -36,12 +36,13 @@ if [ ! -d "$BUILD_DIR" ]; then
     mkdir "$BUILD_DIR"
     cd "$BUILD_DIR"
     cmake -DPICO_PLATFORM="$PICO_PLATFORM" -DPICO_BOARD="$PICO_BOARD" \
-        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
+        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON $CMAKE_EXTRA_ARGS ..
     cd ..
 fi
 
 echo "compiling firmware..."
-make -C "$BUILD_DIR" -j$(sysctl -n hw.ncpu)
+NCPU="$( (sysctl -n hw.ncpu 2>/dev/null) || (nproc 2>/dev/null) || echo 1 )"
+make -C "$BUILD_DIR" -j"$NCPU"
 
 echo ""
 echo "done -> $BUILD_DIR/firmware.uf2"

@@ -58,7 +58,7 @@ I also originally wanted to make the case in transparent resin, but I ended up c
 
 ## Firmware
 
-_warning: this is wip and some parts of he firmware have been ai generated get a poc quickly, but I plan to rewrite it very soon._ \
+_warning: this is a wip and some parts of the firmware have been ai generated to get a poc working quickly, but I plan to rewrite it very soon._ \
 \
 The firmware is written in c and uses the pico sdk. I also wrote a desktop simulator that allows you to test ui changes without reflashing all the time/having the device.
 
@@ -66,7 +66,10 @@ The firmware is written in c and uses the pico sdk. I also wrote a desktop simul
 
 **Building to run on device:**
 
-(You need cmake, a pico sdk, an arm-none-eabi toolchain, pico-extras and sdl2 (only if you build the simulator) installed)
+_If you just need an already built uf2, you can just grab it from the releases page or directly from the actions tab (action runs on every commit inside src/firmware)_
+\
+\
+(You need cmake, a pico sdk, an arm-none-eabi toolchain, pico-extras installed)
 
 - clone this repo
 - export these env vars:
@@ -78,7 +81,8 @@ The firmware is written in c and uses the pico sdk. I also wrote a desktop simul
 
 **Building to run on desktop:**
 
-_(this allows you to run/test the same ui on your computer without flashing the device!)_
+_(this allows you to run/test the same ui on your computer without flashing the device!)_\
+_(you need sdl2 installed)_
 
 - go to src/firmware/ & run `./run_emulator.sh --clean`
 

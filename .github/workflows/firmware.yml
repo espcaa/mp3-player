@@ -1,0 +1,71 @@
+name: Build firmware
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "src/firmware/**"
+      - ".github/workflows/firmware.yml"
+  pull_request:
+    paths:
+      - "src/firmware/**"
+      - ".github/workflows/firmware.yml"
+
+jobs:
+  build-pico:
+    runs-on: ubuntu-latest
+    env:
+      CCACHE_DIR: ${{ github.workspace }}/.ccache
+      CMAKE_EXTRA_ARGS: -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+    steps:
+      - name: Checkout firmware
+        uses: actions/checkout@v4
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ccache gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential
+
+      - name: Restore ccache
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/.ccache
+          key: ccache-firmware-${{ github.sha }}
+          restore-keys: |
+            ccache-firmware-
+
+      - name: Checkout pico-sdk
+        uses: actions/checkout@v4
+        with:
+          repository: raspberrypi/pico-sdk
+          path: pico-sdk
+          submodules: recursive
+
+      - name: Checkout pico-extras
+        uses: actions/checkout@v4
+        with:
+          repository: raspberrypi/pico-extras
+          path: pico-extras
+          submodules: recursive
+
+      - name: Configure ccache
+        run: |
+          ccache --max-size=500M
+          ccache --zero-stats
+
+      - name: Build
+        env:
+          PICO_SDK_PATH: ${{ github.workspace }}/pico-sdk
+          PICO_EXTRAS_PATH: ${{ github.workspace }}/pico-extras
+        working-directory: src/firmware
+        run: ./build_pico.sh
+
+      - name: Show ccache stats
+        run: ccache --show-stats
+
+      - name: Upload firmware artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware-uf2
+          path: src/firmware/build_pico/firmware.uf2
+          if-no-files-found: error
